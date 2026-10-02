@@ -2,7 +2,7 @@ name: Validate and import post queue
 on:
   push:
     branches: [main]
-    paths: ['posts/**']
+    paths: ['posts/*.json']
   workflow_dispatch:
 permissions:
   contents: read
@@ -21,11 +21,28 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - run: python -m app.import_queue --validate-only
+      - name: Check Azure configuration
+        id: configuration
+        env:
+          CLIENT_ID: ${{ vars.AZURE_CLIENT_ID }}
+          TENANT_ID: ${{ vars.AZURE_TENANT_ID }}
+          SUBSCRIPTION_ID: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+          STORAGE_ACCOUNT: ${{ vars.STORAGE_ACCOUNT }}
+        run: |
+          if [ -n "$CLIENT_ID" ] && [ -n "$TENANT_ID" ] && [ -n "$SUBSCRIPTION_ID" ] && [ -n "$STORAGE_ACCOUNT" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Azure is not configured. Validation completed; no posts were imported or published."
+            echo "Azure is not configured. Queue import was skipped." >> "$GITHUB_STEP_SUMMARY"
+          fi
       - uses: azure/login@v2
+        if: steps.configuration.outputs.ready == 'true' 
         with:
           client-id: ${{ vars.AZURE_CLIENT_ID }}
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
       - run: python -m app.import_queue
+        if: steps.configuration.outputs.ready == 'true'
         env:
           STORAGE_ACCOUNT: ${{ vars.STORAGE_ACCOUNT }}
