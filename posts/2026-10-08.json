@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-08",
+  "posts": {
+    "personal": "If a critical application went down tomorrow, what would your team restore first?\n\nThe answer should come from a conversation with the people who rely on it. Finance, operations, and customer support may have different priorities. An application may also depend on another service that needs to be available first.\n\nA useful planning exercise is to choose one business process and walk through an outage together. Identify the information, systems, people, and approvals needed to get that process working again.\n\nRecord assumptions as questions to verify in a planned recovery exercise. Keep the scope manageable and capture what you learn.\n\nWhen was the last time your business owners and technical team compared their expectations for recovery?\n\n#BusinessContinuity #ITOperations",
+    "company": "Recovery planning starts with understanding what your business needs to keep working.\n\nA list of systems is a useful beginning. The next conversation is about the activities those systems support, the dependencies between them, and the people who will make decisions during an interruption.\n\nCloud2e's services include backup and disaster recovery alongside managed IT support. For organizations reviewing their recovery plans, a practical first step is to identify one critical business process and discuss how it would resume after an outage.\n\nBring together the business owner and the technical team. Write down the expected sequence, responsibilities, and questions that still need a planned test.\n\nThat discussion gives your next recovery exercise a clear purpose.\n\nConnect with Cloud2e to discuss your backup and recovery needs.\n\n#BusinessContinuity #Cloud2e"
+  },
+  "sources": [
+    "https://www.cloud2e.com/"
+  ]
+}

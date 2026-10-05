@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-07",
+  "posts": {
+    "personal": "An employee changes roles. Does their access change with them?\n\nOnboarding and offboarding get attention because they have clear start and end dates. Internal moves can be easier to overlook. Someone takes on new responsibilities, receives additional access, and keeps permissions from their previous role.\n\nTry bringing one recent role change to your next IT and business review. Ask the manager to confirm what the person needs today. Have the appropriate system owners review what is still assigned and document any changes through your normal process.\n\nThe goal is a repeatable handoff between business decisions and access administration.\n\nWho tells your IT team when an employee changes responsibilities, and how does that request reach the owners of individual applications?\n\n#IdentityManagement #ManagedIT",
+    "company": "A new role should prompt a fresh conversation about access.\n\nYour business understands what an employee needs to do. Your IT team manages the accounts and permissions that make that work possible. Connecting those two views helps make access decisions clearer as responsibilities change.\n\nCloud2e's identity and access management services include user lifecycle management, single sign-on, and multi-factor authentication.\n\nOne practical starting point for a service discussion is the employee transfer process: who requests access, which application owners approve it, and who reviews permissions carried over from the previous role?\n\nGive each step an owner and a place to record the decision. That creates a process people can follow the next time someone moves between teams.\n\nConnect with Cloud2e to discuss your identity and managed IT needs.\n\n#IdentityAndAccessManagement #Cloud2e"
+  },
+  "sources": [
+    "https://www.cloud2e.com/services/"
+  ]
+}
