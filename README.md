@@ -9,8 +9,9 @@ No OpenAI/Azure OpenAI key or Metricool subscription is used by this code.
 LinkedIn posts or ChatGPT schedules have been created by preparing this package.
 Azure deployment and live LinkedIn delivery still require integration testing.
 This first version is a queue/worker with GitHub as the editing surface, not a
-web dashboard. Both destinations use the same LinkedIn member authorization,
-which must include permission to publish to the selected company page.
+web dashboard. The destinations use separate LinkedIn applications and Key Vault secrets:
+`linkedin-token-personal` and `linkedin-token-company`. Each token must carry its
+own publishing permission. No shared-token fallback is used.
 
 ## Flow
 
@@ -104,7 +105,9 @@ Grant your setup identity Key Vault Secrets Officer on THIS vault, then run:
 python -m venv .venv
 # Activate .venv for your shell, then:
 pip install -r requirements.txt
-python scripts/set_linkedin_token.py
+python scripts/set_linkedin_token.py --target personal
+# Once company access is approved:
+python scripts/set_linkedin_token.py --target company
 ```
 
 The helper reads the token without echo and writes it directly to Key Vault.
@@ -196,3 +199,12 @@ your environment. No live LinkedIn call is made by the tests.
 - Azure jobs: https://learn.microsoft.com/en-us/azure/container-apps/jobs
 - Azure billing: https://learn.microsoft.com/en-us/azure/container-apps/billing
 - ChatGPT scheduled tasks/plugins: https://learn.chatgpt.com/docs/automations
+
+## Separate-token update (October 5, 2026)
+
+The repository now supports separate apps and tokens. The originally deployed
+image still uses a shared token until rebuilt and updated; do not activate that
+older image. A missing/expired token or unconfigured author skips that destination
+without sending its content under the other account. The job reports a failure
+until both destinations are configured, even if one succeeds. Existing successful
+state records still prevent duplicate posts. No posting was enabled by this update.
