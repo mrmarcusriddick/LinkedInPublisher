@@ -1,0 +1,7 @@
+{
+  "issuer": "https://token.actions.githubusercontent.com",
+  "subject": "repo:mrmarcusriddick@325058402/LinkedInPublisher@1402416422:environment:production",
+  "audiences": [
+    "api://AzureADTokenExchange"
+  ]
+}
