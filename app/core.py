@@ -37,15 +37,15 @@ def due_at(day):
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
-def process(item, target, state, save, send, now):
+def process(item, target, state, save, send, now, *, manual=False):
     """Caller holds exclusive durable lock. Never retry an ambiguous delivery."""
     validate(item)
     if target not in TARGETS:
         raise ValueError('Unknown target')
     due = due_at(item['date'])
-    if now < due:
+    if not manual and now < due:
         return 'not_due'
-    if now >= due + timedelta(hours=1):
+    if not manual and now >= due + timedelta(hours=1):
         return 'outside_window'
     text = item['posts'][target]
     if state.get('content_hash') and state['content_hash'] != digest(text):
