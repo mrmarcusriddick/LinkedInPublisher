@@ -2,7 +2,7 @@ name: Validate and import post queue
 on:
   push:
     branches: [main]
-    paths: ['posts/*.json']
+    paths: ['posts/*.json', 'media/*.json', 'assets/*.png', 'image-parts/**']
   workflow_dispatch:
 permissions:
   contents: read

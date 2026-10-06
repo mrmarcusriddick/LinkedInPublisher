@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-06",
+  "images": {
+    "personal": {
+      "path": "assets/614f28391d55e80ca9e15ddae41ea6f6894c4de6162fa64f6fdebbfdf030a465.png",
+      "sha256": "614f28391d55e80ca9e15ddae41ea6f6894c4de6162fa64f6fdebbfdf030a465",
+      "alt": "Three connected IT workspaces. Clear ownership. Better IT support."
+    },
+    "company": {
+      "path": "assets/614f28391d55e80ca9e15ddae41ea6f6894c4de6162fa64f6fdebbfdf030a465.png",
+      "sha256": "614f28391d55e80ca9e15ddae41ea6f6894c4de6162fa64f6fdebbfdf030a465",
+      "alt": "Three connected IT workspaces. Clear ownership. Better IT support."
+    }
+  }
+}

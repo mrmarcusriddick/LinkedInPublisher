@@ -37,7 +37,7 @@ def due_at(day):
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
-def process(item, target, state, save, send, now, *, manual=False):
+def process(item, target, state, save, send, now, *, manual=False, attachment=None):
     """Caller holds exclusive durable lock. Never retry an ambiguous delivery."""
     validate(item)
     if target not in TARGETS:
@@ -48,7 +48,9 @@ def process(item, target, state, save, send, now, *, manual=False):
     if not manual and now >= due + timedelta(hours=1):
         return 'outside_window'
     text = item['posts'][target]
-    if state.get('content_hash') and state['content_hash'] != digest(text):
+    from app.media import attachment_hash
+    content_hash = attachment_hash(text, attachment)
+    if state.get('content_hash') and state['content_hash'] != content_hash:
         return 'content_conflict'
     status = state.get('status', 'queued')
     if status == 'sending':
@@ -59,7 +61,7 @@ def process(item, target, state, save, send, now, *, manual=False):
         return status
     if state.get('retry_at') and now < datetime.fromisoformat(state['retry_at']):
         return 'waiting_retry'
-    state.update(status='sending', content_hash=digest(text), attempted_at=now.isoformat())
+    state.update(status='sending', content_hash=content_hash, attempted_at=now.isoformat())
     # Persist BEFORE the request. A crash after this point must not cause a second post.
     save(state)
     try:

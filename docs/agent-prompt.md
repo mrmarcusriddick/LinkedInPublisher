@@ -1,6 +1,6 @@
-# Cloud2e daily content task — ready to configure after connection verification
+# Cloud2e daily content task
 
-This is a task specification, not an active automation. Repository: mrmarcusriddick/LinkedInPublisher. Read/write access is verified during setup;
+The matching ChatGPT automation is active; this file records its instructions. Repository: mrmarcusriddick/LinkedInPublisher. Read/write access is verified during setup;
 verify access again when activating the task. The repository is currently public,
 so only public-ready marketing copy may be committed. Never include secrets.
 Run preparation daily at 8:00 a.m. America/New_York. Azure publishes at 9:00 a.m.
@@ -40,12 +40,12 @@ Avoid filler, exaggerated claims, repetitive hooks, guaranteed compliance,
 certification promises, unverified RPO/C3PAO claims and invented customer names.
 Use plain text, 0-3 relevant hashtags, and at most one company call-to-action
 link. Never use confidential customer, government, tenant or infrastructure
-information from other conversations. No images in this first version.
+information from other conversations. Create an original image for each new post date; follow docs/images.md.
 
 Produce JSON with exactly these keys:
 {"date":"YYYY-MM-DD","posts":{"personal":"...","company":"..."},"sources":["https://..."]}
 Each post must be 1-3000 characters. Sources are for traceability, not automatic
-inclusion in the public post. Filename must match date. Create the missing files
+inclusion in the public post. Filename must match date. Create missing post JSON, media JSON and image assets together
 in ONE commit to main using the current branch head/tree; never force-push or
 modify application code/workflows. GitHub Actions imports the queue. Observe the
 workflow result and report failures. Creation of a file means queued, not published.

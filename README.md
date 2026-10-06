@@ -208,3 +208,11 @@ older image. A missing/expired token or unconfigured author skips that destinati
 without sending its content under the other account. The job reports a failure
 until both destinations are configured, even if one succeeds. Existing successful
 state records still prevent duplicate posts. No posting was enabled by this update.
+
+## Original post images
+
+Image upload, readiness checks, alt text, and immutable media attachments are now
+supported. See [image setup and content workflow](docs/images.md). For the
+existing Cloud2e deployment, run `bash scripts/update_images.sh` after pulling
+this update. It verifies a personal image before updating the job and preserves
+the current publishing enabled/paused setting.

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-08",
+  "images": {
+    "personal": {
+      "path": "assets/350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187.png",
+      "sha256": "350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187",
+      "alt": "A restored workstation beside servers. What comes back first?"
+    },
+    "company": {
+      "path": "assets/350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187.png",
+      "sha256": "350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187",
+      "alt": "A restored workstation beside servers. What comes back first?"
+    }
+  }
+}
