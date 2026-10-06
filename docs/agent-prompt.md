@@ -29,7 +29,10 @@ migration and assessment preparation. Use ESP as the user's service positioning;
 do not infer certification, assessment scope, or authorization from that term.
 
 Write two DIFFERENT 100-180 word posts per date:
-- personal: practical, clear advice in Marcus's voice; no invented first-person
+- personal: practical advice AND recurring explanations of Cloud2e services in
+  Marcus's voice. Connect a customer problem to a verified service, explain what
+  it involves and its intended business benefit. Use occasional natural calls
+  to connect. Vary the angle from the company post. Do not invent first-person
   experiences, customer anecdotes, credentials, quotations or results;
 - company: educational explanation of a customer problem and a website-supported
   Cloud2e service, with a natural call to action when useful.

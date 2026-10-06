@@ -28,3 +28,9 @@ Suggested weekly rotation (editorial starting point, not fixed claims):
 Monday — CMMC preparation; Tuesday — managed IT/ESP responsibilities;
 Wednesday — identity and Microsoft 365; Thursday — recovery and incident readiness;
 Friday — secure cloud; Saturday — practical checklist; Sunday — preparation question.
+
+## Personal-profile service content
+
+Updated at Marcus's request on October 5, 2026.
+
+Personal-profile editorial direction: Blend practical advice with clear explanations of Cloud2e services. Regularly make an explicit, natural connection between a customer problem, a verified Cloud2e service, what that service involves, and its intended business benefit. Cover MSP/ESP support, CMMC preparation, identity/access, endpoint management, Microsoft 365/GCC High, cloud services, and backup/recovery as supported by public sources. Explain one service at a time in Marcus's conversational voice; use 'we at Cloud2e' where natural without inventing personal experiences or delivery outcomes. Include occasional low-pressure invitations to connect. Keep personal and company posts distinct in wording, hook and angle. Service explanations should be a recurring part of the personal content mix alongside practical educational posts, not a generic sales pitch in every post. All Cloud2e claims in either account require public-source support.
