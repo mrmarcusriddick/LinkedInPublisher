@@ -75,12 +75,29 @@ class ImageTests(unittest.TestCase):
         self.assertEqual(body['content']['media']['altText'], 'alt')
         self.assertEqual(body['author'], api.owner)
         api.image_status('urn:li:image:1')
+        self.assertEqual(session.calls[-1][0], 'https://api.linkedin.com/v2/images/urn%3Ali%3Aimage%3A1')
         self.assertNotIn('Linkedin-Version', session.calls[-1][1]['headers'])
         api.owner = 'urn:li:organization:1'
         api.image_status('urn:li:image:1')
+        self.assertTrue(session.calls[-1][0].startswith('https://api.linkedin.com/rest/images/'))
         self.assertEqual(session.calls[-1][1]['headers']['Linkedin-Version'], '202609')
         api.publish('text')
         self.assertNotIn('content', session.calls[-1][1]['json'])
+
+    def test_status_failure_does_not_mark_uploaded_image_ready(self):
+        class Rejected(Session):
+            def get(self, url, **kw):
+                return type('Response', (), {'status_code': 403, 'json': lambda self: {
+                    'code': 'ACCESS_DENIED', 'serviceErrorCode': 100,
+                    'message': 'secret signed URL must not appear'}})()
+        store, uploader = Store(), API()
+        prepare_image(store, 'personal', IMAGE, uploader)
+        api = LinkedIn('test', '202609', uploader.owner, Rejected())
+        with self.assertRaises(LinkedInError) as caught:
+            prepare_image(store, 'personal', IMAGE, api)
+        self.assertEqual(caught.exception.details, {'code': 'ACCESS_DENIED', 'service_error_code': 100})
+        self.assertEqual(next(iter(store.states.values()))['status'], 'uploaded')
+        self.assertNotIn('secret', str(caught.exception))
 
     def test_token_never_sent_to_arbitrary_upload_host(self):
         api = LinkedIn('test', '202609', 'urn:li:person:test', Session())

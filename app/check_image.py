@@ -61,7 +61,8 @@ if __name__ == '__main__':
     try:
         sys.exit(main())
     except LinkedInError as error:
-        print(json.dumps({'status': 'linkedin_error', 'operation': error.operation, 'http_status': error.status}))
+        print(json.dumps({'status': 'linkedin_error', 'operation': error.operation,
+                          'http_status': error.status, **error.details}))
         sys.exit(1)
     except Exception as error:
         print(json.dumps({'status': 'check_failed', 'type': type(error).__name__,

@@ -3,8 +3,21 @@ import re
 from urllib.parse import urlsplit, quote
 
 class LinkedInError(Exception):
-    def __init__(self, operation, status):
+    def __init__(self, operation, status, response=None):
         self.operation, self.status = operation, status
+        self.details = {}
+        # Only machine codes are exposed, never response text or signed URLs.
+        if response is not None:
+            try:
+                body = response.json()
+                code = body.get('code')
+                if isinstance(code, str) and re.fullmatch(r'[A-Z][A-Z_]{0,79}', code):
+                    self.details['code'] = code
+                service_code = body.get('serviceErrorCode')
+                if type(service_code) is int:
+                    self.details['service_error_code'] = service_code
+            except (ValueError, AttributeError, TypeError):
+                pass
         super().__init__(f'{operation}: HTTP {status}')
 
 class LinkedIn:
@@ -40,13 +53,16 @@ class LinkedIn:
 
     def image_status(self, urn):
         headers = dict(self.headers)
+        base = 'https://api.linkedin.com/rest/images/'
         if self.owner.startswith('urn:li:person:'):
-            # Documented legacy read: w_member_social cannot use versioned image GET.
+            # Legacy reads use the v2 gateway. /rest requires a version header.
+            # w_member_social cannot use the versioned image GET permission path.
+            base = 'https://api.linkedin.com/v2/images/'
             headers.pop('Linkedin-Version')
-        r = self.session.get('https://api.linkedin.com/rest/images/' + quote(urn, safe=''),
+        r = self.session.get(base + quote(urn, safe=''),
             headers=headers, timeout=(5, 15), allow_redirects=False)
         if r.status_code != 200:
-            raise LinkedInError('image_status', r.status_code)
+            raise LinkedInError('image_status', r.status_code, r)
         return r.json()['status']
 
     def publish(self, text, media=None):

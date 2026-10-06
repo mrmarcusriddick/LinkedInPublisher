@@ -47,8 +47,12 @@ The worker uploads images independently for each LinkedIn author. It prepares
 media during the hour before posting, then publishes at 9 a.m. America/New_York
 within the existing one-hour delivery window. Upload state is separate from
 post delivery state. It requires LinkedIn to report AVAILABLE before posting.
-Personal tokens use the documented legacy image status GET, because versioned
-image reads do not support w_member_social alone. An authorization failure is
+Personal tokens use the legacy /v2/images status GET, because versioned
+image reads do not support w_member_social alone. The /rest gateway requires
+a Linkedin-Version header; removing that header does not select legacy routing.
+The legacy path is inferred from LinkedIn's gateway conventions and its Images
+API legacy-permission note; it still needs verification with the live token.
+Organization reads retain /rest/images and the version header. A read failure is
 reported, with no speculative text-only fallback. This API behavior must be
 verified with the live token before enabling image publishing.
 
