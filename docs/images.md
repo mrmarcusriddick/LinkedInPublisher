@@ -3,7 +3,12 @@
 ChatGPT generates original square PNG visuals related to each day's topic using
 its built-in image generation tool. No AI endpoint runs inside Azure. Use the
 Cloud2e palette: navy #05070D, blue #29A9F5, purple #7C6BFF and gray #E2E8F0.
-Use concise legible headlines and a CLOUD2E text wordmark. Do not invent logos,
+Use concise legible headlines and the official logo in brand/cloud2e-logo.png.
+Do not substitute a plain text wordmark. Preserve the supplied blue/gray lightning
+emblem, CLOUD2E lettering, colors and proportions. A light footer provides contrast.
+Reference the supplied logo in image generation/editing and inspect the result.
+For text-only connectors, decode brand/cloud2e-logo.base64 to the exact PNG bytes;
+verify SHA-256 against brand/cloud2e-logo.sha256 before using it. Do not invent logos,
 certification badges, customer identities, screenshots or performance claims.
 Inspect the generated image for text accuracy and relevance. Generate separate
 personal/company images when the topics differ; one relevant image can serve both.

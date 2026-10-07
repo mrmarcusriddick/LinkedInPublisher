@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-09",
+  "images": {
+    "personal": {
+      "path": "assets/ccf86cc16e66e1f4086298cd26520f8e911b220cc4d69b8b2b1d432d7765eb27.png",
+      "sha256": "ccf86cc16e66e1f4086298cd26520f8e911b220cc4d69b8b2b1d432d7765eb27",
+      "alt": "Server and cloud linked by a path. Plan before you migrate. Start with the business need. CLOUD2E."
+    },
+    "company": {
+      "path": "assets/ccf86cc16e66e1f4086298cd26520f8e911b220cc4d69b8b2b1d432d7765eb27.png",
+      "sha256": "ccf86cc16e66e1f4086298cd26520f8e911b220cc4d69b8b2b1d432d7765eb27",
+      "alt": "Server and cloud linked by a path. Plan before you migrate. Start with the business need. CLOUD2E."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-07",
+  "images": {
+    "personal": {
+      "path": "assets/a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b.png",
+      "sha256": "a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b",
+      "alt": "Employee badge and access tiles. New role. Right access."
+    },
+    "company": {
+      "path": "assets/a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b.png",
+      "sha256": "a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b",
+      "alt": "Employee badge and access tiles. New role. Right access."
+    }
+  }
+}

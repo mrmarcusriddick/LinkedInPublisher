@@ -2,14 +2,14 @@
   "date": "2026-10-08",
   "images": {
     "personal": {
-      "path": "assets/350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187.png",
-      "sha256": "350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187",
-      "alt": "A restored workstation beside servers. What comes back first?"
+      "path": "assets/e7720fb275a79fce8332e666876db050b6c80affac15d12db2d75a350fb98a51.png",
+      "sha256": "e7720fb275a79fce8332e666876db050b6c80affac15d12db2d75a350fb98a51",
+      "alt": "A restored workstation beside servers. What comes back first? Official Cloud2e lightning logo in footer."
     },
     "company": {
-      "path": "assets/350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187.png",
-      "sha256": "350b27013aef99713858c9f65332f70849abdb68bcdc313c0abae270ec8f3187",
-      "alt": "A restored workstation beside servers. What comes back first?"
+      "path": "assets/e7720fb275a79fce8332e666876db050b6c80affac15d12db2d75a350fb98a51.png",
+      "sha256": "e7720fb275a79fce8332e666876db050b6c80affac15d12db2d75a350fb98a51",
+      "alt": "A restored workstation beside servers. What comes back first? Official Cloud2e lightning logo in footer."
     }
   }
 }
