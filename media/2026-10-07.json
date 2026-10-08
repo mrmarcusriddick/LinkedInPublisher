@@ -2,14 +2,14 @@
   "date": "2026-10-07",
   "images": {
     "personal": {
-      "path": "assets/f37146a61328d4285e14e05aa5467bf907d57e72b54607e60843d9fdceb2d71b.png",
-      "sha256": "f37146a61328d4285e14e05aa5467bf907d57e72b54607e60843d9fdceb2d71b",
-      "alt": "Employee badge and access tiles. New role. Right access. Official Cloud2e lightning logo in footer."
+      "path": "assets/a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b.png",
+      "sha256": "a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b",
+      "alt": "Employee badge and access tiles. New role. Right access."
     },
     "company": {
-      "path": "assets/f37146a61328d4285e14e05aa5467bf907d57e72b54607e60843d9fdceb2d71b.png",
-      "sha256": "f37146a61328d4285e14e05aa5467bf907d57e72b54607e60843d9fdceb2d71b",
-      "alt": "Employee badge and access tiles. New role. Right access. Official Cloud2e lightning logo in footer."
+      "path": "assets/a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b.png",
+      "sha256": "a5326d35ca206a80c29224e576610847be21539cfac817bbc7ac41a5d594b47b",
+      "alt": "Employee badge and access tiles. New role. Right access."
     }
   }
 }

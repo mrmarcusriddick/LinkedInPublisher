@@ -8,7 +8,7 @@ import time
 from contextlib import ExitStack, contextmanager
 from pathlib import Path
 
-DATES = ('2026-10-07', '2026-10-08', '2026-10-09')
+DATES = ('2026-10-08', '2026-10-09')
 ACCOUNT = 'c2ea2e23015'
 GROUP = 'rg-cloud2e-publisher'
 SUBSCRIPTION = 'a2e23015-1a59-4109-9126-cd464798993f'

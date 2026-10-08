@@ -4,6 +4,10 @@ Marcus requested replacing the plain wordmark in the October 7–9 queued graphi
 with the supplied official Cloud2e logo. Post text is unchanged. Original attachment
 metadata is retained in operator/logo-original-media for guarded comparison.
 
+October 7's personal post was confirmed published at 2026-10-07T13:00:25.902357+00:00.
+Its original attachment metadata is preserved, and the replacement helper now
+updates only October 8 and 9. It does not change the existing LinkedIn post.
+
 Changing repository attachment metadata does not overwrite the immutable Azure
 queue automatically. The queue importer may report an attachment conflict until
 the operator applies this explicitly authorized replacement.
