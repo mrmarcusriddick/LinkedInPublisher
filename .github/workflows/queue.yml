@@ -2,7 +2,7 @@ name: Validate and import post queue
 on:
   push:
     branches: [main]
-    paths: ['posts/*.json', 'media/*.json', 'assets/*.png', 'image-parts/**']
+    paths: ['posts/*.json', 'media/*.json', 'assets/*.png', 'image-parts/**', 'app/storage.py', 'app/media.py', 'app/import_queue.py', '.github/workflows/queue.yml']
   workflow_dispatch:
 permissions:
   contents: read

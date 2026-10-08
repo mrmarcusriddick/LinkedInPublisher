@@ -27,7 +27,9 @@ class Store:
             blob.upload_blob(data, overwrite=False, content_settings=ContentSettings(content_type=content_type))
             return 'imported'
         except ResourceExistsError:
-            if blob.download_blob().readall() != data:
+            from app.media import same_media_content
+            existing = blob.download_blob().readall()
+            if existing != data and not same_media_content(name, existing, data):
                 raise ValueError(f'{name}: queue is immutable; pause publishing before an operator replaces it')
             return 'unchanged'
 

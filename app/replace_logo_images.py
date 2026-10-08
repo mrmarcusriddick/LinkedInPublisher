@@ -83,7 +83,7 @@ def main():
     from azure.storage.blob import BlobServiceClient, ContentSettings
     from azure.core import MatchConditions
     from azure.core.exceptions import ResourceExistsError
-    from app.media import validate_media, local_asset, validate_png
+    from app.media import validate_media, media_bytes, local_asset, validate_png
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply', action='store_true')
     args = parser.parse_args()
@@ -94,6 +94,7 @@ def main():
         old = validate_media(json.loads((root/'operator'/'logo-original-media'/f'{day}.json').read_text()))
         payload = (root/'media'/f'{day}.json').read_bytes()
         new = validate_media(json.loads(payload))
+        payload = media_bytes(new)
         for attachment in new['images'].values():
             assets[attachment['path']] = (local_asset(root, attachment), attachment['sha256'])
         plans.append((day, old, new, payload))

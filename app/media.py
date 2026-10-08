@@ -25,6 +25,26 @@ def validate_media(item):
 def media_bytes(item):
     return json.dumps(validate_media(item), sort_keys=True, ensure_ascii=False).encode()
 
+def same_media_content(name, existing, incoming):
+    """Accept formatting differences only, without rewriting an immutable blob."""
+    match = re.fullmatch(r'media/(\d{4}-\d{2}-\d{2})\.json', name)
+    if not match:
+        return False
+    def unique_keys(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError('Duplicate JSON key')
+            result[key] = value
+        return result
+    try:
+        left = validate_media(json.loads(existing, object_pairs_hook=unique_keys))
+        right = validate_media(json.loads(incoming, object_pairs_hook=unique_keys))
+        return (left['date'] == right['date'] == match.group(1)
+                and media_bytes(left) == media_bytes(right))
+    except (ValueError, TypeError, KeyError):
+        return False
+
 def validate_png(data, expected_hash):
     if not 24 <= len(data) <= MAX_BYTES or data[:8] != b'\x89PNG\r\n\x1a\n' or data[12:16] != b'IHDR':
         raise ValueError('Expected PNG under 8 MiB')
