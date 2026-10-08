@@ -14,8 +14,9 @@ From the repository with its virtual environment active:
 python -m app.replace_logo_images --apply
 ```
 
-The command uses the signed-in Azure administrator's existing storage-account-key
-permission; it never prints or stores the key. No role assignments are changed.
+The command uses the signed-in Azure CLI Entra identity. Shared-key authentication
+remains disabled. The operator needs Storage Blob Data Contributor on the queue
+and state containers; no role assignments are changed by the helper.
 It validates local assets, checks the existing attachment and post delivery state,
 briefly pauses publishing, waits for active executions to finish, uploads and
 verifies assets, holds post-state leases, and replaces known attachment versions

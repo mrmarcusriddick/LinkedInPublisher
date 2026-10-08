@@ -79,6 +79,7 @@ def set_enabled(value):
        '--set-env-vars', 'PUBLISH_ENABLED=' + value)
 
 def main():
+    from azure.identity import AzureCliCredential
     from azure.storage.blob import BlobServiceClient, ContentSettings
     from azure.core import MatchConditions
     from azure.core.exceptions import ResourceExistsError
@@ -96,13 +97,10 @@ def main():
         for attachment in new['images'].values():
             assets[attachment['path']] = (local_asset(root, attachment), attachment['sha256'])
         plans.append((day, old, new, payload))
-    # The existing Azure administrator's account-key permission provides queue
-    # access. The key stays in memory; it is never printed or written to disk.
-    phase('read_storage_account_key')
-    keys = az('storage', 'account', 'keys', 'list', '--resource-group', GROUP,
-              '--account-name', ACCOUNT)
-    service = BlobServiceClient(f'https://{ACCOUNT}.blob.core.windows.net', credential=keys[0]['value'])
-    del keys
+    # Use the signed-in Entra identity; shared-key authentication stays disabled.
+    phase('authenticate_with_entra')
+    service = BlobServiceClient(f'https://{ACCOUNT}.blob.core.windows.net',
+                               credential=AzureCliCredential())
     pending = []
     for day, old, new, payload in plans:
         blob = service.get_blob_client('queue', f'media/{day}.json')
