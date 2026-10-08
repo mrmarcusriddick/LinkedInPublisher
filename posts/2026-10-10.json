@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-10",
+  "posts": {
+    "personal": "A security finding becomes useful when someone knows what happens next.\n\nFor a manageable weekend checklist, choose one open issue from your security review. Write down the affected system, the person responsible for the next action, and how you will check that the change worked.\n\nInclude a target date and any business decision that needs approval. If the issue depends on another team or service provider, make that handoff explicit.\n\nWe at Cloud2e offer CMMC preparation support that includes gap assessment and remediation. Those services help organizations understand where work is needed and address technical gaps, rather than leave a report sitting on a shared drive.\n\nYou can start small: one finding, one owner, one clear next step. Keep the record current as the work progresses.\n\nWhich open issue would be easier to move forward if everyone agreed on the next action?\n\n#CMMCPreparation #Cloud2e",
+    "company": "A remediation plan should be usable by the people doing the work.\n\nA list of findings describes concerns. An action record adds the decisions needed to address them: what will change, who will perform the work, which dependencies matter, and how the result will be checked.\n\nCloud2e's CMMC preparation services include scope and gap assessment, technical remediation, and documentation support. The purpose is to connect identified gaps with practical work and records that explain what has been done.\n\nFor your next planning meeting, bring one finding and the people who own the affected system. Agree on the next action and a realistic target date. Record any approval or business constraint before scheduling the change.\n\nAfterward, capture the result and any remaining questions. That gives the next review a concrete starting point.\n\nConnect with Cloud2e to discuss your preparation priorities.\n\n#CMMCPreparation #ManagedServices #Cloud2e"
+  },
+  "sources": [
+    "https://www.cloud2e.com/#compliance"
+  ]
+}

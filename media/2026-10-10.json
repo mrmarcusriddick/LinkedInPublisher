@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-10",
+  "images": {
+    "personal": {
+      "path": "assets/65b658d1c3bd8b666252656c1b64a08baa1801120872ce068d3fd22f54b24a83.png",
+      "sha256": "65b658d1c3bd8b666252656c1b64a08baa1801120872ce068d3fd22f54b24a83",
+      "alt": "Clipboard and action tiles under “One finding. One next step.” with the official Cloud2e lightning logo."
+    },
+    "company": {
+      "path": "assets/65b658d1c3bd8b666252656c1b64a08baa1801120872ce068d3fd22f54b24a83.png",
+      "sha256": "65b658d1c3bd8b666252656c1b64a08baa1801120872ce068d3fd22f54b24a83",
+      "alt": "Clipboard and action tiles under “One finding. One next step.” with the official Cloud2e lightning logo."
+    }
+  }
+}
