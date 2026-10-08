@@ -1,7 +1,16 @@
 import unittest
-from app.replace_logo_images import assert_unattempted, check_manifest
+from app.replace_logo_images import assert_unattempted, check_manifest, failure_details
 
 class LogoReplacementTests(unittest.TestCase):
+    def test_diagnostics_exclude_response_body_and_credentials(self):
+        class AzureError(Exception):
+            status_code = 403
+            error_code = 'AuthorizationPermissionMismatch'
+        details = failure_details(AzureError('secret signed URL'))
+        self.assertEqual(details['http_status'], 403)
+        self.assertEqual(details['azure_code'], 'AuthorizationPermissionMismatch')
+        self.assertNotIn('secret', str(details))
+
     def test_attempted_delivery_is_never_reset(self):
         for state in ({'status': 'published'}, {'status': 'sending'},
                       {'status': 'unknown'}, {'status': 'blocked'},

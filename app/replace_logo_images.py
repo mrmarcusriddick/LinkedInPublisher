@@ -1,6 +1,7 @@
 """Apply Marcus's approved logo replacements without resetting post delivery state."""
 import argparse
 import json
+import re
 import subprocess
 import sys
 import time
@@ -11,6 +12,22 @@ DATES = ('2026-10-07', '2026-10-08', '2026-10-09')
 ACCOUNT = 'c2ea2e23015'
 GROUP = 'rg-cloud2e-publisher'
 SUBSCRIPTION = 'a2e23015-1a59-4109-9126-cd464798993f'
+PHASE = 'local_validation'
+
+def phase(name):
+    global PHASE
+    PHASE = name
+
+def failure_details(error):
+    details = {'status': 'replacement_failed', 'type': type(error).__name__, 'operation': PHASE}
+    status = getattr(error, 'status_code', None)
+    if type(status) is int:
+        details['http_status'] = status
+    code = getattr(error, 'error_code', None) or getattr(getattr(error, 'error', None), 'code', None)
+    if isinstance(code, str) and re.fullmatch(r'[A-Za-z][A-Za-z0-9_]{0,79}', code):
+        details['azure_code'] = code
+    details['message'] = str(error) if isinstance(error, (ValueError, RuntimeError)) else 'Azure operation failed; use operation and azure_code to diagnose'
+    return details
 
 def az(*args):
     result = subprocess.run(['az', *args, '--subscription', SUBSCRIPTION,
@@ -33,6 +50,7 @@ def check_manifest(current, old, new):
     return True
 
 def read_state(service, day, target, lease=None):
+    phase('read_delivery_state')
     from azure.core.exceptions import ResourceNotFoundError
     blob = service.get_blob_client('state', f'{day}-{target}.json')
     try:
@@ -42,6 +60,7 @@ def read_state(service, day, target, lease=None):
 
 @contextmanager
 def hold_state(service, day, target):
+    phase('lock_delivery_state')
     from azure.core.exceptions import ResourceExistsError
     blob = service.get_blob_client('state', f'{day}-{target}.json')
     try:
@@ -55,6 +74,7 @@ def hold_state(service, day, target):
         lease.release()
 
 def set_enabled(value):
+    phase('update_publishing_setting')
     az('containerapp', 'job', 'update', '--resource-group', GROUP, '--name', ACCOUNT,
        '--set-env-vars', 'PUBLISH_ENABLED=' + value)
 
@@ -78,6 +98,7 @@ def main():
         plans.append((day, old, new, payload))
     # The existing Azure administrator's account-key permission provides queue
     # access. The key stays in memory; it is never printed or written to disk.
+    phase('read_storage_account_key')
     keys = az('storage', 'account', 'keys', 'list', '--resource-group', GROUP,
               '--account-name', ACCOUNT)
     service = BlobServiceClient(f'https://{ACCOUNT}.blob.core.windows.net', credential=keys[0]['value'])
@@ -85,6 +106,7 @@ def main():
     pending = []
     for day, old, new, payload in plans:
         blob = service.get_blob_client('queue', f'media/{day}.json')
+        phase('read_queue_attachment')
         current = json.loads(blob.download_blob().readall())
         if check_manifest(current, old, new):
             for target in ('personal', 'company'):
@@ -96,9 +118,11 @@ def main():
         return 0
     if not pending:
         for path, (_, sha) in assets.items():
+            phase('verify_queue_asset')
             validate_png(service.get_blob_client('queue', path).download_blob().readall(), sha)
         print(json.dumps({'status': 'already_updated', 'dates': list(DATES)}))
         return 0
+    phase('read_publishing_setting')
     job = az('containerapp', 'job', 'show', '--resource-group', GROUP, '--name', ACCOUNT)
     env = job['properties']['template']['containers'][0]['env']
     previous = next((e['value'] for e in env if e['name'] == 'PUBLISH_ENABLED'), 'false')
@@ -109,6 +133,7 @@ def main():
         set_enabled('false')
         paused = True
         for attempt in range(12):
+            phase('check_active_executions')
             executions = az('containerapp', 'job', 'execution', 'list',
                             '--resource-group', GROUP, '--name', ACCOUNT)
             active = [e for e in executions if e.get('properties', {}).get('status')
@@ -119,6 +144,7 @@ def main():
                 raise ValueError('Active publisher execution; retry after it finishes')
             time.sleep(3)
         for path, (data, sha) in assets.items():
+            phase('upload_and_verify_queue_asset')
             blob = service.get_blob_client('queue', path)
             try:
                 blob.upload_blob(data, overwrite=False, content_settings=ContentSettings(content_type='image/png'))
@@ -134,11 +160,13 @@ def main():
             # Check every attachment before any replacement.
             ready = []
             for day, old, new, payload, blob in pending:
+                phase('check_attachment_version')
                 props = blob.get_blob_properties()
                 current = json.loads(blob.download_blob().readall())
                 if check_manifest(current, old, new):
                     ready.append((day, payload, blob, props.etag))
             for day, payload, blob, etag in ready:
+                phase('replace_queue_attachment')
                 for lease in locks.values():
                     lease.renew()
                 changed = True
@@ -149,6 +177,9 @@ def main():
                     raise ValueError('Replacement verification failed')
                 print(json.dumps({'date': day, 'status': 'logo_attachment_updated_and_verified'}))
         completed = True
+    except Exception as error:
+        error.replacement_phase = PHASE
+        raise
     finally:
         if paused and (completed or not changed):
             set_enabled(previous)
@@ -163,6 +194,6 @@ if __name__ == '__main__':
     try:
         sys.exit(main())
     except Exception as error:
-        print(json.dumps({'status': 'replacement_failed', 'type': type(error).__name__,
-                          'message': str(error) if isinstance(error, (ValueError, RuntimeError)) else 'Check Azure access and retry'}))
+        PHASE = getattr(error, 'replacement_phase', PHASE)
+        print(json.dumps(failure_details(error)))
         sys.exit(1)
