@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-11",
+  "posts": {
+    "personal": "Could your team find the right security contact without signing in to the system that is having problems?\n\nThat is a useful Sunday planning question. A contact list stored only inside an unavailable application may be hard to reach when someone needs help.\n\nWe at Cloud2e provide incident response planning as part of our security services. Planning means working out how people will report concerns, who coordinates the response, and how decisions reach the people responsible for business operations.\n\nFor a small exercise, ask a few employees where they would report a suspicious message. Have them describe the route without forwarding a real suspicious attachment or sharing sensitive information.\n\nThen check whether your approved instructions include a backup contact method and someone responsible for keeping them current.\n\nThe intended benefit is a clearer starting point when time matters. Which contact would your team need to find first?\n\n#IncidentReadiness #Cloud2e",
+    "company": "What information should accompany the first report of a suspected security issue?\n\nA useful starting point is the time noticed, the affected device or application, a brief description, and a safe way to reach the person reporting it. Follow your organization's reporting procedure, and keep sensitive information within approved channels.\n\nCloud2e offers cybersecurity and incident response services, including incident response planning. An effective planning conversation connects the employee reporting a concern with the technical team and the business decision-makers who may need to act.\n\nTry a short discussion using a fictional suspicious email. Identify the reporting channel, the person who receives the report, and how an unanswered request is escalated. Ask what the business owner needs to know and who communicates it.\n\nRecord any unclear handoffs and update the approved instructions. A plan becomes more useful when people can follow it.\n\nConnect with Cloud2e to discuss incident readiness.\n\n#IncidentResponse #ManagedServices #Cloud2e"
+  },
+  "sources": [
+    "https://www.cloud2e.com/#services",
+    "https://www.cloud2e.com/#compliance"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11",
+  "images": {
+    "personal": {
+      "path": "assets/b7c4eedaaf4edbc5de9a15a56e1ef42f55f0d579adbd2155acd118e75f1bf040.png",
+      "sha256": "b7c4eedaaf4edbc5de9a15a56e1ef42f55f0d579adbd2155acd118e75f1bf040",
+      "alt": "Desk phone and contact card under “Know who to call.” with the official Cloud2e lightning logo."
+    },
+    "company": {
+      "path": "assets/b7c4eedaaf4edbc5de9a15a56e1ef42f55f0d579adbd2155acd118e75f1bf040.png",
+      "sha256": "b7c4eedaaf4edbc5de9a15a56e1ef42f55f0d579adbd2155acd118e75f1bf040",
+      "alt": "Desk phone and contact card under “Know who to call.” with the official Cloud2e lightning logo."
+    }
+  }
+}
