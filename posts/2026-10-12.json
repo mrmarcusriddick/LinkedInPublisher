@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-12",
+  "posts": {
+    "personal": "Your device list should answer more than “How many laptops do we have?”\n\nFor each device, can your team identify the person using it, the business group responsible for it, and where support requests should go? Those details matter when a device changes hands, misses maintenance, or starts causing problems.\n\nWe at Cloud2e provide endpoint management as part of our managed IT services. That involves supporting the devices people use and connecting device work with a dedicated helpdesk. The intended benefit is clearer ownership and a more consistent path for everyday support.\n\nA practical starting point is one department. Compare its approved devices with current users and owners. Flag anything that is unassigned, no longer needed, or missing a clear support route. Then document who will resolve each exception.\n\nWould your current device list help someone take action today?\n\n#EndpointManagement #ManagedIT #Cloud2e",
+    "company": "A device should have an owner before it has a problem.\n\nEndpoint management becomes easier to operate when responsibility is clear throughout the device lifecycle: setup, assignment, maintenance, reassignment, and retirement. Without that ownership, support requests can stall and unused devices can remain in circulation.\n\nCloud2e's managed IT services include comprehensive endpoint management and a dedicated helpdesk. Together, those services provide a defined place for device support and help organizations keep everyday technology aligned with the people using it.\n\nChoose five devices from one team and review them with the business owner. Confirm the assigned user, current purpose, support route, and next lifecycle decision. Record exceptions instead of relying on memory.\n\nRepeat the review on a manageable schedule and assign someone to close each gap. Small, consistent reviews can make the device record more useful to both operations and support.\n\nConnect with Cloud2e to discuss managed endpoint support.\n\n#EndpointManagement #ManagedServices #Cloud2e"
+  },
+  "sources": [
+    "https://www.cloud2e.com/#services"
+  ]
+}

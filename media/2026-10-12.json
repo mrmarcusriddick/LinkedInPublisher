@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "images": {
+    "personal": {
+      "path": "assets/02f29858a90ef4b05703bd7728b9d18e4e37609711b40c87487b26ac27d69a9a.png",
+      "sha256": "02f29858a90ef4b05703bd7728b9d18e4e37609711b40c87487b26ac27d69a9a",
+      "alt": "Laptop, tablet, and phone linked to owner icons under “Every device needs an owner.” with the Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/02f29858a90ef4b05703bd7728b9d18e4e37609711b40c87487b26ac27d69a9a.png",
+      "sha256": "02f29858a90ef4b05703bd7728b9d18e4e37609711b40c87487b26ac27d69a9a",
+      "alt": "Laptop, tablet, and phone linked to owner icons under “Every device needs an owner.” with the Cloud2e logo."
+    }
+  }
+}
