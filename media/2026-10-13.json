@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "images": {
+    "personal": {
+      "path": "assets/dccc4107ffba4758d5251b3778035d107747d8175c1b704766b4ec9cfcd7148e.png",
+      "sha256": "dccc4107ffba4758d5251b3778035d107747d8175c1b704766b4ec9cfcd7148e",
+      "alt": "Main and remote offices connected through a firewall under “Connect sites with purpose.” with the Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/dccc4107ffba4758d5251b3778035d107747d8175c1b704766b4ec9cfcd7148e.png",
+      "sha256": "dccc4107ffba4758d5251b3778035d107747d8175c1b704766b4ec9cfcd7148e",
+      "alt": "Main and remote offices connected through a firewall under “Connect sites with purpose.” with the Cloud2e logo."
+    }
+  }
+}

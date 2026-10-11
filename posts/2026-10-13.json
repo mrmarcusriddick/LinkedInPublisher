@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-13",
+  "posts": {
+    "personal": "If a remote site lost connectivity, could your team explain which work would stop first?\n\nA network diagram shows technical connections. A useful operations view also identifies the business activities that depend on them, the people who need updates, and where support begins.\n\nWe at Cloud2e provide main-office and remote-site networking, firewall management, and secure VPN and remote-access services. That work connects locations and remote users to the resources they need, with a defined service path when connectivity changes or fails.\n\nChoose one location and list its important connections. Beside each one, record the business activity it supports, the responsible owner, and the approved support contact. Note any dependency that is understood by only one person.\n\nThe intended benefit is a clearer response when a connection becomes unavailable. Which site would teach you the most if you reviewed it this week?\n\n#NetworkOperations #ManagedIT #Cloud2e",
+    "company": "A firewall rule is a business decision expressed as configuration.\n\nSomeone requested access for a reason. Someone owns the application or service. Those details can become difficult to recover when a rule remains long after the original project changes.\n\nCloud2e's Edge Transport and Network Engineering services include firewall management, main-office and remote-site networking, and secure VPN and remote access.\n\nFor a focused review, select a small group of existing firewall rules. Confirm the business purpose, responsible owner, approved source and destination, required service, and next review date. Route proposed changes through your organization's normal approval process, then record the decision with the rule.\n\nThis creates a clearer connection between business need and network configuration. It also gives future reviewers a useful starting point instead of asking them to reconstruct the original request.\n\nConnect with Cloud2e to discuss network and firewall management.\n\n#NetworkEngineering #FirewallManagement #Cloud2e"
+  },
+  "sources": [
+    "https://www.cloud2e.com/#services"
+  ]
+}
