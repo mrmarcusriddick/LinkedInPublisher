@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-14",
+  "images": {
+    "personal": {
+      "path": "assets/0883fc2b467131e9417cbdb870432f493d4c694e9b315462cd19881cf0faeea6.png",
+      "sha256": "0883fc2b467131e9417cbdb870432f493d4c694e9b315462cd19881cf0faeea6",
+      "alt": "Connected collaboration, document, and archive panels under “Give every workspace an owner.” with Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/0883fc2b467131e9417cbdb870432f493d4c694e9b315462cd19881cf0faeea6.png",
+      "sha256": "0883fc2b467131e9417cbdb870432f493d4c694e9b315462cd19881cf0faeea6",
+      "alt": "Connected collaboration, document, and archive panels under “Give every workspace an owner.” with Cloud2e logo."
+    }
+  }
+}
