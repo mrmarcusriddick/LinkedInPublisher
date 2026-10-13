@@ -4,15 +4,28 @@ Confirmed by Marcus in this conversation: Cloud2e; MSP/ESP services and CMMC
 preparation; daily posts to personal and company LinkedIn; 9:00 a.m. Eastern;
 Azure hosting; ChatGPT writes posts, with no separately purchased AI API endpoint.
 
-Website research completed October 2, 2026:
-- https://www.cloud2e.com/ : managed IT, cybersecurity, CMMC preparation through
-  assessments/gap analysis/remediation, secure cloud migrations, GCC High,
-  Azure Government, endpoint protection, backup and disaster recovery.
-- https://www.cloud2e.com/services/ : helpdesk, endpoint management, IAM/MFA,
-  vulnerability scanning, incident response planning, firewalls, VPN,
-  Azure/AWS, Microsoft 365 and migration services.
-- https://www.cloud2e.com/cmmc/ : retrieval failed on recheck; do not depend
-  on this page until its contents can be verified.
+Website research refreshed October 13, 2026. The sitemap and canonical tags identify
+these authoritative service pages:
+- https://www.cloud2e.com/services/it-managed-services/ : managed IT,
+  helpdesk, endpoint management, identity and access, SSO and MFA.
+- https://www.cloud2e.com/services/cmmc-compliance/ : CMMC preparation,
+  gap assessment, remediation, SSP/POA&M and documentation.
+- https://www.cloud2e.com/services/cybersecurity-incident-response/ :
+  endpoint protection, detection and response, DLP and incident response.
+- https://www.cloud2e.com/services/edge-transport-network-engineering/ :
+  office/remote-site networking, firewall management, VPN and remote access.
+- https://www.cloud2e.com/services/azure-aws-cloud-services/ : Azure,
+  Azure Government and AWS architecture, migration, operations, VMs,
+  containers, modernization, automation and orchestration.
+- https://www.cloud2e.com/services/cloud-adoption-microsoft-365/ :
+  Microsoft 365 and GCC High migration/adoption, SharePoint, Teams, OneDrive
+  and Exchange Online.
+- https://www.cloud2e.com/sitemap.xml : current route inventory.
+
+The generic /services/ path is not the source link for posts. Use the specific
+canonical service page that directly supports the post topic. Do not repeat
+certification-status claims from website titles or descriptions unless separately
+authorized and verified.
 
 Core positioning: practical managed IT and cybersecurity support that helps
 organizations strengthen operations and prepare for CMMC assessments.
