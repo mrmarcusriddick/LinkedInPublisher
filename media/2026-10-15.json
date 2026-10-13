@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-15",
+  "images": {
+    "personal": {
+      "path": "assets/4d59e43b71af4dd62bf003ff1edd47e2fc686e996749ab5ea2ed105201ac9629.png",
+      "sha256": "4d59e43b71af4dd62bf003ff1edd47e2fc686e996749ab5ea2ed105201ac9629",
+      "alt": "Legacy application, cloud hosting blocks, automation flow, and verification under “Modernize the operating model.”"
+    },
+    "company": {
+      "path": "assets/4d59e43b71af4dd62bf003ff1edd47e2fc686e996749ab5ea2ed105201ac9629.png",
+      "sha256": "4d59e43b71af4dd62bf003ff1edd47e2fc686e996749ab5ea2ed105201ac9629",
+      "alt": "Legacy application, cloud hosting blocks, automation flow, and verification under “Modernize the operating model.”"
+    }
+  }
+}
