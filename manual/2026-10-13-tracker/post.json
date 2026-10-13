@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-13",
+  "posts": {
+    "personal": "A spreadsheet can record a security task. The harder question is whether your team can find the supporting evidence and keep it current.\n\nFor organizations preparing for CMMC, that work can become scattered across shared folders, assessment notes, and maintenance records. A useful starting point is connecting each record to the activity it describes.\n\nWe at Cloud2e offer the CMMC Tracker, a system of record for organizing registries, self-assessment records, recurring checklists, and evidence exports. It is designed for deployment within your own enclave, including GCC High environments.\n\nThe intended benefit is a clearer view of preparation work and the records supporting it.\n\nTry this with one recurring security task: identify the responsible person, locate the latest record, and decide when it needs another review.\n\nIf those answers take several conversations, it may be time to bring the information together.\n\nExplore the Cloud2e CMMC Tracker:\nhttps://www.cloud2e.com/cmmc-tracker/\n\n#CMMCPreparation #ManagedServices #Cloud2e",
+    "company": "Cloud2e CMMC Tracker: https://www.cloud2e.com/cmmc-tracker/"
+  },
+  "sources": [
+    "https://www.cloud2e.com/cmmc-tracker/"
+  ]
+}
