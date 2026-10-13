@@ -10,6 +10,9 @@ these authoritative service pages:
   helpdesk, endpoint management, identity and access, SSO and MFA.
 - https://www.cloud2e.com/services/cmmc-compliance/ : CMMC preparation,
   gap assessment, remediation, SSP/POA&M and documentation.
+- https://www.cloud2e.com/cmmc-tracker/ : CLOUD2E CMMC Tracker information,
+  including control-assessment records, SPRS scoring, recurring checklists,
+  evidence management and exports. Use only for Tracker-specific posts.
 - https://www.cloud2e.com/services/cybersecurity-incident-response/ :
   endpoint protection, detection and response, DLP and incident response.
 - https://www.cloud2e.com/services/edge-transport-network-engineering/ :
