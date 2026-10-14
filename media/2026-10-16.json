@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-16",
+  "images": {
+    "personal": {
+      "path": "assets/e977f084ce8ebd779a16edf0dc8cfb8565cd853dd642f64d277f3488ffeddb31.png",
+      "sha256": "e977f084ce8ebd779a16edf0dc8cfb8565cd853dd642f64d277f3488ffeddb31",
+      "alt": "Laptops, a maintenance gear and exception checklist under “Patch. Verify. Follow through.” with the Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/e977f084ce8ebd779a16edf0dc8cfb8565cd853dd642f64d277f3488ffeddb31.png",
+      "sha256": "e977f084ce8ebd779a16edf0dc8cfb8565cd853dd642f64d277f3488ffeddb31",
+      "alt": "Laptops, a maintenance gear and exception checklist under “Patch. Verify. Follow through.” with the Cloud2e logo."
+    }
+  }
+}
