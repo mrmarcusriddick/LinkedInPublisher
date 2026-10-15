@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-17",
+  "images": {
+    "personal": {
+      "path": "assets/9167b806a47959cdc39e8d30b003aeae9fb3f6e72e99b50095b878c5c76724cb.png",
+      "sha256": "9167b806a47959cdc39e8d30b003aeae9fb3f6e72e99b50095b878c5c76724cb",
+      "alt": "Procedure binder and servers connected by review arrows under “Keep documentation current.” with Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/9167b806a47959cdc39e8d30b003aeae9fb3f6e72e99b50095b878c5c76724cb.png",
+      "sha256": "9167b806a47959cdc39e8d30b003aeae9fb3f6e72e99b50095b878c5c76724cb",
+      "alt": "Procedure binder and servers connected by review arrows under “Keep documentation current.” with Cloud2e logo."
+    }
+  }
+}
