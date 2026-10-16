@@ -81,3 +81,32 @@ modify application code/workflows. GitHub Actions imports the queue. Observe the
 workflow result and report failures. Creation of a file means queued, not published.
 If GitHub access fails, report the failure here and do not claim the posts were
 queued. Do not use Metricool, add an AI API key, or duplicate an existing file.
+
+
+## Article review and editorial priority — October 16, 2026
+
+For the next newly created dates, prioritize (1) an ESP Directory follow-up explaining
+shared responsibilities, then (2) practical questions for selecting a preparation
+provider. Check recent posts to avoid repeating the October 15 announcement.
+Do not modify existing dated posts or media manifests.
+
+Article-specific posts may use these canonical Cloud2e article URLs instead of the
+service-page mapping, with exactly one outbound Cloud2e URL before hashtags and
+the same URL in sources:
+- ESP Directory follow-up: https://www.cloud2e.com/insights/cloud2e-msp-collective-esp-directory/
+- Provider selection: https://www.cloud2e.com/insights/how-to-choose-cmmc-compliance-company/
+Verify HTTP 200 and current relevance before use. Retain original-image, official-logo,
+alt-text, integrity, atomic-commit and verified Azure-import requirements.
+
+Verified public evidence: https://www.mspcollective.org/esp-directory lists CLOUD2E LLC,
+Level 2, assessment date September 3, 2026, and says listings are validated with
+the assessing C3PAO. Attribute this precisely to the directory; do not infer
+MSP Collective membership, assessment scope of every service, or customer compliance.
+Obtain the provider's shared responsibility matrix to understand assessed services.
+A listing/certificate does not replace customer scoping, SSP/CRM documentation or evidence.
+
+Primary-source claim checks are recorded in docs/site-claim-review-2026-10-16.md.
+Do not automatically repeat all statements in an article linked by a post.
+Avoid unsupported price ranges, enclave reduction percentages, blanket FIPS-MFA
+claims and claims that an RPO designation is a legal prerequisite to consulting.
+Use official current sources for deadlines and contract applicability.
