@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "images": {
+    "personal": {
+      "path": "assets/17d0b039b48df57183aa324ee0d27b2b3c51a0fd8a9fe197c9031a8d13c9abd2.png",
+      "sha256": "17d0b039b48df57183aa324ee0d27b2b3c51a0fd8a9fe197c9031a8d13c9abd2",
+      "alt": "Blue and purple folders around a shared document; A listing starts the conversation; official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/17d0b039b48df57183aa324ee0d27b2b3c51a0fd8a9fe197c9031a8d13c9abd2.png",
+      "sha256": "17d0b039b48df57183aa324ee0d27b2b3c51a0fd8a9fe197c9031a8d13c9abd2",
+      "alt": "Blue and purple folders around a shared document; A listing starts the conversation; official Cloud2e logo."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-20",
+  "images": {
+    "personal": {
+      "path": "assets/bc2ce5f9d84d0e93c2c247b4a371ec4811ee99eb191df00ac0fcf42ed7c4159f.png",
+      "sha256": "bc2ce5f9d84d0e93c2c247b4a371ec4811ee99eb191df00ac0fcf42ed7c4159f",
+      "alt": "Magnifying glass over proposals; Choose clarity: scope, deliverables, responsibilities; official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/bc2ce5f9d84d0e93c2c247b4a371ec4811ee99eb191df00ac0fcf42ed7c4159f.png",
+      "sha256": "bc2ce5f9d84d0e93c2c247b4a371ec4811ee99eb191df00ac0fcf42ed7c4159f",
+      "alt": "Magnifying glass over proposals; Choose clarity: scope, deliverables, responsibilities; official Cloud2e logo."
+    }
+  }
+}

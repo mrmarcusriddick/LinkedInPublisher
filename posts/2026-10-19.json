@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19",
+  "posts": {
+    "personal": "A directory listing is a useful starting point. My next question would be: which responsibilities are actually covered?\n\nCLOUD2E LLC is listed in the MSP Collective ESP Directory. The directory says its listings are validated with the assessing C3PAO, and it asks customers to obtain each provider's shared responsibility matrix to understand the assessed services.\n\nThat second step deserves attention. Ask who manages the relevant systems, what your team still owns, and where supporting records will come from. Walk through one shared activity, such as reviewing access, and make sure both sides understand their part.\n\nWe at Cloud2e provide managed IT and CMMC preparation services. Connecting those services to clear responsibilities helps customers understand the proposed support and the work that remains theirs.\n\nOur new Insights article explains the listing. Use it to start a conversation about scope rather than assume a provider's status covers your entire environment.\n\nhttps://www.cloud2e.com/insights/cloud2e-msp-collective-esp-directory/\n\n#CMMCPreparation #ManagedServices #Cloud2e",
+    "company": "What should a defense contractor review after finding an ESP in a directory?\n\nStart with the services and responsibilities that apply to your environment.\n\nCLOUD2E LLC appears in the MSP Collective ESP Directory, which states that listings are validated with the C3PAO that performed the provider's assessment. The directory also directs customers to request a shared responsibility matrix showing the scope of assessed services.\n\nThat matrix supports a more specific discussion: which activities the provider performs, which remain with the customer, and how the two teams exchange the information needed to support those activities.\n\nCloud2e offers managed IT and CMMC preparation services, including gap assessment, remediation and documentation support. A service discussion should connect those offerings to your actual scope and responsibilities.\n\nA provider listing does not establish your organization's compliance or replace its own preparation.\n\nRead our Insights article, then bring your scope and responsibility questions to the conversation.\n\nhttps://www.cloud2e.com/insights/cloud2e-msp-collective-esp-directory/\n\n#ESPDirectory #CMMCPreparation #Cloud2e"
+  },
+  "sources": [
+    "https://www.cloud2e.com/insights/cloud2e-msp-collective-esp-directory/",
+    "https://www.mspcollective.org/esp-directory",
+    "https://www.cloud2e.com/services/it-managed-services/",
+    "https://www.cloud2e.com/services/cmmc-compliance/"
+  ]
+}
