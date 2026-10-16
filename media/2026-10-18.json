@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-18",
+  "images": {
+    "personal": {
+      "path": "assets/157f35a5ba0f71284795dfddc09585bf60277ad7653d2cc54353d7a0feb241e8.png",
+      "sha256": "157f35a5ba0f71284795dfddc09585bf60277ad7653d2cc54353d7a0feb241e8",
+      "alt": "Recovery folder, document and laptop under “Restore it. Open it. Verify it.” with official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/157f35a5ba0f71284795dfddc09585bf60277ad7653d2cc54353d7a0feb241e8.png",
+      "sha256": "157f35a5ba0f71284795dfddc09585bf60277ad7653d2cc54353d7a0feb241e8",
+      "alt": "Recovery folder, document and laptop under “Restore it. Open it. Verify it.” with official Cloud2e logo."
+    }
+  }
+}
