@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-21",
+  "images": {
+    "personal": {
+      "path": "assets/bfaade601dfa84a11f53c157a8460be5b86a9b97d3833e602d907fe7021f9038.png",
+      "sha256": "bfaade601dfa84a11f53c157a8460be5b86a9b97d3833e602d907fe7021f9038",
+      "alt": "Support ticket, headset and speech bubble under \u201cGive support the context.\u201d with official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/bfaade601dfa84a11f53c157a8460be5b86a9b97d3833e602d907fe7021f9038.png",
+      "sha256": "bfaade601dfa84a11f53c157a8460be5b86a9b97d3833e602d907fe7021f9038",
+      "alt": "Support ticket, headset and speech bubble under \u201cGive support the context.\u201d with official Cloud2e logo."
+    }
+  }
+}
