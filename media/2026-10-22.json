@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-22",
+  "images": {
+    "personal": {
+      "path": "assets/4a1416e1fd2bf73824b1171350b5355e2c5c14c7f893a147aec5ad8a2d0d3b58.png",
+      "sha256": "4a1416e1fd2bf73824b1171350b5355e2c5c14c7f893a147aec5ad8a2d0d3b58",
+      "alt": "Know what you manage: hardware, software, licenses and vendor folders in blue and purple, above the official blue and gray Cloud2e logo on a light footer."
+    },
+    "company": {
+      "path": "assets/4a1416e1fd2bf73824b1171350b5355e2c5c14c7f893a147aec5ad8a2d0d3b58.png",
+      "sha256": "4a1416e1fd2bf73824b1171350b5355e2c5c14c7f893a147aec5ad8a2d0d3b58",
+      "alt": "Know what you manage: hardware, software, licenses and vendor folders in blue and purple, above the official blue and gray Cloud2e logo on a light footer."
+    }
+  }
+}
