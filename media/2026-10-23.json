@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-23",
+  "images": {
+    "personal": {
+      "path": "assets/d21d5add1da996395617cad0c5e95a66b8bf36609aa401ad60a474dbd7fa172a.png",
+      "sha256": "d21d5add1da996395617cad0c5e95a66b8bf36609aa401ad60a474dbd7fa172a",
+      "alt": "Incident alert branches to isolation, session revocation and contact actions above the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/d21d5add1da996395617cad0c5e95a66b8bf36609aa401ad60a474dbd7fa172a.png",
+      "sha256": "d21d5add1da996395617cad0c5e95a66b8bf36609aa401ad60a474dbd7fa172a",
+      "alt": "Incident alert branches to isolation, session revocation and contact actions above the official Cloud2e logo."
+    }
+  }
+}
