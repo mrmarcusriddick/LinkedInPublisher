@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-24",
+  "images": {
+    "personal": {
+      "path": "assets/e52971eff38eb909972305383f611057547f95a2f5ab7a0e693d923a96a6842f.png",
+      "sha256": "e52971eff38eb909972305383f611057547f95a2f5ab7a0e693d923a96a6842f",
+      "alt": "Cloud automation pipeline shows an owner, logs, alert and rollback above the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/e52971eff38eb909972305383f611057547f95a2f5ab7a0e693d923a96a6842f.png",
+      "sha256": "e52971eff38eb909972305383f611057547f95a2f5ab7a0e693d923a96a6842f",
+      "alt": "Cloud automation pipeline shows an owner, logs, alert and rollback above the official Cloud2e logo."
+    }
+  }
+}
