@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-25",
+  "images": {
+    "personal": {
+      "path": "assets/1919ee25afbcd22c859bd0fa91e3f0e7faded27dbc9bb3c9c193304f3655478e.png",
+      "sha256": "1919ee25afbcd22c859bd0fa91e3f0e7faded27dbc9bb3c9c193304f3655478e",
+      "alt": "Cloud2e graphic with a recurring checklist, evidence links and the headline Evidence Needs a Routine."
+    },
+    "company": {
+      "path": "assets/1919ee25afbcd22c859bd0fa91e3f0e7faded27dbc9bb3c9c193304f3655478e.png",
+      "sha256": "1919ee25afbcd22c859bd0fa91e3f0e7faded27dbc9bb3c9c193304f3655478e",
+      "alt": "Cloud2e graphic with a recurring checklist, evidence links and the headline Evidence Needs a Routine."
+    }
+  }
+}
