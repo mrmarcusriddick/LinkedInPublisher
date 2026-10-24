@@ -54,6 +54,42 @@ shortener when a specific service page applies. Use this mapping:
   or Exchange Online:
   https://www.cloud2e.com/services/cloud-adoption-microsoft-365/
 
+Additional verified topic-specific destinations:
+- managed IT specifically for defense contractors, CUI enclave operations,
+  evidence-producing operations or government-contractor support:
+  https://www.cloud2e.com/services/managed-it-government-contractors/
+- co-managed IT, augmentation of an internal IT team, escalation coverage or
+  documented division of duties:
+  https://www.cloud2e.com/services/co-managed-it/
+- CMMC documentation, SSP structure, policies and procedures, operational
+  records, evidence organization or customer responsibility documentation:
+  https://www.cloud2e.com/cmmc-documentation/
+- CMMC Level 2 overview, assessment status, affirmations or POA&M limitations:
+  https://www.cloud2e.com/cmmc-level-2/
+- CMMC versus NIST SP 800-171 educational explanation:
+  https://www.cloud2e.com/insights/cmmc-vs-nist-800-171/
+- CMMC program sequencing or implementation checklist:
+  https://www.cloud2e.com/insights/cmmc-compliance-checklist/
+- CUI enclave scoping and asset-boundary decisions:
+  https://www.cloud2e.com/insights/cmmc-enclave/
+- MSP evaluation using the ND-ISAC questionnaire:
+  https://www.cloud2e.com/insights/ndisac-dib-msp-shopping-guide/
+- CMMC assessment preparation and evidence logistics:
+  https://www.cloud2e.com/insights/cmmc-compliance-audit-northern-virginia/
+- managed IT pricing models, quote exclusions and buyer questions:
+  https://www.cloud2e.com/insights/managed-it-services-cost/
+
+For checklist posts, describe the sequence as Cloud2e's recommended operating
+approach, not a government-mandated order. For enclave posts, explain that scope
+follows assets that process, store or transmit CUI and the assets that protect
+them; never promise a particular cost, percentage or timeline reduction. For
+pricing posts, discuss pricing structures, scope drivers, exclusions and buyer
+questions, but do not repeat numerical market ranges unless independently
+verified against a current authoritative source. Verify rollout dates and other
+time-sensitive CMMC statements immediately before publication. Article text
+supports Cloud2e's editorial position but does not replace DoD, eCFR, NIST,
+Acquisition.gov or ND-ISAC as the authority for regulatory or third-party claims.
+
 If no listed page directly supports the topic, choose another supported topic
 instead of linking a generic page. The required canonical service link is the
 only outbound link in that post.
@@ -110,3 +146,30 @@ Do not automatically repeat all statements in an article linked by a post.
 Avoid unsupported price ranges, enclave reduction percentages, blanket FIPS-MFA
 claims and claims that an RPO designation is a legal prerequisite to consulting.
 Use official current sources for deadlines and contract applicability.
+
+
+## Site review and editorial priority — October 24, 2026
+
+The newest reviewed Insights content is dated October 20, 2026. For the next
+eligible, non-duplicative dates, prioritize these angles:
+1. CMMC and NIST SP 800-171 are related but not interchangeable.
+2. An enclave boundary must follow the data and security-protection assets.
+3. A practical CMMC program begins with scope and ownership before tooling.
+4. Defense contractors should use the ND-ISAC questions when evaluating an MSP.
+5. Co-managed IT works best when responsibilities and escalation paths are explicit.
+
+Claim-handling rules from this review:
+- 32 CFR Part 170 is the authority for the CMMC program, Level 2 scoping,
+  ESP/customer responsibility documentation and POA&M limitations.
+- NIST publications are the authority for SP 800-171 requirements and
+  SP 800-171A assessment methods.
+- Acquisition.gov is the authority for current DFARS clause text.
+- ND-ISAC is the authority for the DIB MSP Shopping Guide and questionnaire.
+- Do not present Cloud2e's checklist order as the only valid sequence.
+- Do not publish numerical managed-IT price ranges or quantified enclave savings
+  based only on vendor marketing articles.
+- Do not reuse a CMMC phase date, suspension status or implementation deadline
+  without a fresh check of current DoD primary sources on the publication date.
+- Continue attributing certification and ESP Directory facts to the applicable
+  public directory/profile; do not extend them to customer outcomes or the scope
+  of every Cloud2e service.
