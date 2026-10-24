@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-26",
+  "images": {
+    "personal": {
+      "path": "assets/522c9d5432f1f684f07e54b75b29df604e844ec8532f2bebc6d83f66c2a51c48.png",
+      "sha256": "522c9d5432f1f684f07e54b75b29df604e844ec8532f2bebc6d83f66c2a51c48",
+      "alt": "A bounded digital enclave illustrates the headline Scope Before You Remediate above the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/522c9d5432f1f684f07e54b75b29df604e844ec8532f2bebc6d83f66c2a51c48.png",
+      "sha256": "522c9d5432f1f684f07e54b75b29df604e844ec8532f2bebc6d83f66c2a51c48",
+      "alt": "A bounded digital enclave illustrates the headline Scope Before You Remediate above the official Cloud2e logo."
+    }
+  }
+}
