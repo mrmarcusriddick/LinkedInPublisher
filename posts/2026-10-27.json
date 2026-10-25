@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-27",
+  "posts": {
+    "personal": "One simple way to reduce confusion in CMMC preparation is to separate the security requirements from the verification program.\n\nNIST SP 800-171 describes the safeguards an organization needs to apply to systems that process, store, or protect CUI. CMMC provides the assessment framework used to verify whether applicable requirements are implemented.\n\nThat distinction changes how teams plan the work. Implementing a control, documenting it, producing evidence, and preparing people to explain the operating process are related—but they are not the same task.\n\nWe at Cloud2e help defense contractors connect those pieces: define the boundary, map responsibilities, organize evidence, and prepare for assessment without treating a checklist as proof by itself.\n\nIf your team is using “NIST compliant” and “CMMC ready” interchangeably, that is a useful place to start the conversation.\n\nhttps://www.cloud2e.com/insights/cmmc-vs-nist-800-171/\n\n#CMMC #NIST800171",
+    "company": "Security requirements and verification answer two different questions.\n\nNIST SP 800-171 asks: Which safeguards should protect CUI in nonfederal systems?\n\nCMMC asks: How will implementation of the applicable safeguards be assessed and represented as a CMMC status?\n\nThe difference matters because a policy or configuration alone does not tell the complete story. Teams also need a defined scope, assigned responsibilities, current documentation, supporting evidence, and people who can explain how the process operates.\n\nCloud2e helps defense contractors organize preparation around that distinction. Our approach connects technical implementation with documentation and evidence so gaps can be identified and addressed before an assessment.\n\nStart by asking your team to label each open item: requirement implementation, documentation, evidence, or assessment preparation. That simple separation can make the work easier to manage.\n\nhttps://www.cloud2e.com/insights/cmmc-vs-nist-800-171/\n\n#CMMC #DefenseIndustrialBase"
+  },
+  "sources": [
+    "https://www.cloud2e.com/insights/cmmc-vs-nist-800-171/",
+    "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-G/part-170",
+    "https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final"
+  ]
+}

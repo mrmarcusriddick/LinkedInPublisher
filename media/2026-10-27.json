@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "images": {
+    "personal": {
+      "path": "assets/9cfdc1a0c782fe129fccb191a82d7044b6200f545523a3f5d87770eaf4fd67a0.png",
+      "sha256": "9cfdc1a0c782fe129fccb191a82d7044b6200f545523a3f5d87770eaf4fd67a0",
+      "alt": "Cloud2e graphic contrasting a controls checklist with a verification lens."
+    },
+    "company": {
+      "path": "assets/9cfdc1a0c782fe129fccb191a82d7044b6200f545523a3f5d87770eaf4fd67a0.png",
+      "sha256": "9cfdc1a0c782fe129fccb191a82d7044b6200f545523a3f5d87770eaf4fd67a0",
+      "alt": "Cloud2e graphic contrasting a controls checklist with a verification lens."
+    }
+  }
+}
