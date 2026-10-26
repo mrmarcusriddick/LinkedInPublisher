@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "posts": {
+    "personal": "A CMMC enclave boundary should follow CUI, not the org chart.\n\nStart by tracing where CUI is received, created, processed, stored, and transmitted. Then identify the systems that protect those workflows—identity, endpoint security, logging, networking, and other security capabilities. Those decisions shape the asset inventory, network diagram, SSP, and the work that follows.\n\nAn enclave can be useful, but it is not automatically the right answer or a shortcut. If CUI reaches most of the business, the defensible boundary may be broader than expected.\n\nWe at Cloud2e help defense contractors turn those data flows and responsibilities into a documented scope before remediation becomes a collection of disconnected purchases. The intended benefit is a clearer preparation roadmap grounded in how the organization actually handles CUI.\n\nhttps://www.cloud2e.com/insights/cmmc-enclave/\n\n#CMMC #CUI",
+    "company": "A defensible CMMC boundary is more than a diagram around a few systems.\n\nFor Level 2 scoping, organizations need to identify assets that process, store, or transmit CUI, along with assets that provide security functions to the assessment scope. The resulting categories and treatment should be reflected in the asset inventory, network diagram, and System Security Plan.\n\nThat is why Cloud2e begins enclave discussions with data flow and responsibility questions: Where does CUI enter? Who can access it? Which services protect it? What prevents other assets from handling it?\n\nAn enclave may create a focused operating environment, but it does not guarantee a smaller scope. The boundary must match real workflows and remain supportable over time.\n\nUse our overview to frame the scoping conversation before selecting tools or designing remediation work.\n\nhttps://www.cloud2e.com/insights/cmmc-enclave/\n\n#CMMC #DefenseIndustrialBase"
+  },
+  "sources": [
+    "https://www.cloud2e.com/insights/cmmc-enclave/",
+    "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-G/part-170/subpart-D/section-170.19"
+  ]
+}

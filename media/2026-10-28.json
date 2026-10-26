@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "images": {
+    "personal": {
+      "path": "assets/5cc73d61ae85cec78e22777246e9e2a7a23299f47dc9cfacbbdf06dcf7d8ebd8.png",
+      "sha256": "5cc73d61ae85cec78e22777246e9e2a7a23299f47dc9cfacbbdf06dcf7d8ebd8",
+      "alt": "Cloud2e graphic showing CUI-related assets inside a glowing boundary, titled Draw the Boundary First."
+    },
+    "company": {
+      "path": "assets/5cc73d61ae85cec78e22777246e9e2a7a23299f47dc9cfacbbdf06dcf7d8ebd8.png",
+      "sha256": "5cc73d61ae85cec78e22777246e9e2a7a23299f47dc9cfacbbdf06dcf7d8ebd8",
+      "alt": "Cloud2e graphic showing CUI-related assets inside a glowing boundary, titled Draw the Boundary First."
+    }
+  }
+}
