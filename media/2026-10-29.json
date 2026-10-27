@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "images": {
+    "personal": {
+      "path": "assets/64610fa18dca60b77799422613101947b8373ab547041d382c94bab5efaf683e.png",
+      "sha256": "64610fa18dca60b77799422613101947b8373ab547041d382c94bab5efaf683e",
+      "alt": "Cloud2e graphic with a due-diligence checklist and the headline Ask Before You Sign."
+    },
+    "company": {
+      "path": "assets/64610fa18dca60b77799422613101947b8373ab547041d382c94bab5efaf683e.png",
+      "sha256": "64610fa18dca60b77799422613101947b8373ab547041d382c94bab5efaf683e",
+      "alt": "Cloud2e graphic with a due-diligence checklist and the headline Ask Before You Sign."
+    }
+  }
+}

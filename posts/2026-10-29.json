@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29",
+  "posts": {
+    "personal": "An MSP conversation for a defense contractor should go deeper than “Do you support CMMC?”\n\nThe practical questions are about operations: Where can our data exist? Who can access the environment? How are administrator privileges controlled? What does the provider retain? Who owns incident actions, documentation, and evidence?\n\nND-ISAC created its DIB MSP Shopping Guide to help small and medium-sized businesses ask those questions. We at Cloud2e have published our answers so service boundaries and responsibilities can be examined before work begins.\n\nA polished proposal cannot replace a clear Customer Responsibility Matrix, access model, escalation path, and supporting documentation. If those items are vague, the risk has not disappeared; it has become harder to see.\n\nBring the guide to your first MSP conversation and compare documented practices with promises. I’m happy to connect if you want to discuss the questions that matter for your environment.\n\nhttps://www.cloud2e.com/insights/ndisac-dib-msp-shopping-guide/\n\n#CMMC #ManagedServices",
+    "company": "Selecting an MSP for defense-contract work is a risk-management decision, not only an IT purchasing decision.\n\nND-ISAC’s DIB MSP Shopping Guide centers the evaluation on a practical premise: where your data is, who can access it, and how it is managed, tracked, and protected.\n\nUse that premise to structure provider interviews. Ask for the responsibility matrix or equivalent scope document. Review administrative access, data location and retention, subcontractor involvement, incident-response roles, security policies, and the evidence the provider can make available. Then verify that the answers match the proposed service and your contractual obligations.\n\nNo questionnaire can guarantee compliance or replace your organization’s own scoping and documentation. It can, however, expose unclear assumptions before they become operational gaps.\n\nCloud2e has published its response to the guide so defense contractors can evaluate the details—not just the marketing language.\n\nhttps://www.cloud2e.com/insights/ndisac-dib-msp-shopping-guide/\n\n#CMMC #DefenseIndustrialBase #MSP"
+  },
+  "sources": [
+    "https://www.cloud2e.com/insights/ndisac-dib-msp-shopping-guide/",
+    "https://ndisac.org/blog/dib-msp-shopping-guide-for-small-and-medium-sized-businesses/",
+    "https://ndisac.org/wp-content/uploads/2025/08/NDISAC-SMB-WG-MSP-Shopping-Questionnaire-v7.1-Final.pdf"
+  ]
+}
