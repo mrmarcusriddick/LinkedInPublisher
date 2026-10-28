@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-30",
+  "images": {
+    "personal": {
+      "path": "assets/eab339e3e3e6bfc6ddbc38ed729dd25e61a9efc147dd3e030371addb2fb3a298.png",
+      "sha256": "eab339e3e3e6bfc6ddbc38ed729dd25e61a9efc147dd3e030371addb2fb3a298",
+      "alt": "Two IT teams share a documented workflow beneath the headline Clear Roles. Faster Response."
+    },
+    "company": {
+      "path": "assets/eab339e3e3e6bfc6ddbc38ed729dd25e61a9efc147dd3e030371addb2fb3a298.png",
+      "sha256": "eab339e3e3e6bfc6ddbc38ed729dd25e61a9efc147dd3e030371addb2fb3a298",
+      "alt": "Two IT teams share a documented workflow beneath the headline Clear Roles. Faster Response."
+    }
+  }
+}
