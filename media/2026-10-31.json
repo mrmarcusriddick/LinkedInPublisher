@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-31",
+  "images": {
+    "personal": {
+      "path": "assets/e1de8e89e15b1a2fa046e740b457f664db68a9f8d99027d048fca507363fe07d.png",
+      "sha256": "e1de8e89e15b1a2fa046e740b457f664db68a9f8d99027d048fca507363fe07d",
+      "alt": "Cloud2e graphic showing four IT operations producing records under Operate. Record. Review."
+    },
+    "company": {
+      "path": "assets/e1de8e89e15b1a2fa046e740b457f664db68a9f8d99027d048fca507363fe07d.png",
+      "sha256": "e1de8e89e15b1a2fa046e740b457f664db68a9f8d99027d048fca507363fe07d",
+      "alt": "Cloud2e graphic showing four IT operations producing records under Operate. Record. Review."
+    }
+  }
+}
