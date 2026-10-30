@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "images": {
+    "personal": {
+      "path": "assets/4d48230d8eeba4a5f5d38ab578666b9116bdb4e0b9890e546a866ce5030ae651.png",
+      "sha256": "4d48230d8eeba4a5f5d38ab578666b9116bdb4e0b9890e546a866ce5030ae651",
+      "alt": "Connected cloud, identity, data and security nodes under MIGRATE WITH OWNERSHIP, above the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/4d48230d8eeba4a5f5d38ab578666b9116bdb4e0b9890e546a866ce5030ae651.png",
+      "sha256": "4d48230d8eeba4a5f5d38ab578666b9116bdb4e0b9890e546a866ce5030ae651",
+      "alt": "Connected cloud, identity, data and security nodes under MIGRATE WITH OWNERSHIP, above the official Cloud2e logo."
+    }
+  }
+}
