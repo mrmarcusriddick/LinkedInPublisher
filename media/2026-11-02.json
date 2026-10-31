@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-02",
+  "images": {
+    "personal": {
+      "path": "assets/3f7510a4fae364d5a248880fb59653a75573bb480fbc4292b5d9d4c272eb7d49.png",
+      "sha256": "3f7510a4fae364d5a248880fb59653a75573bb480fbc4292b5d9d4c272eb7d49",
+      "alt": "Five connected preparation stages under SEQUENCE BEFORE TOOLS, above the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/3f7510a4fae364d5a248880fb59653a75573bb480fbc4292b5d9d4c272eb7d49.png",
+      "sha256": "3f7510a4fae364d5a248880fb59653a75573bb480fbc4292b5d9d4c272eb7d49",
+      "alt": "Five connected preparation stages under SEQUENCE BEFORE TOOLS, above the official Cloud2e logo."
+    }
+  }
+}
