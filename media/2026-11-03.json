@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03",
+  "images": {
+    "personal": {
+      "path": "assets/666f272919a978eb9040bd71513cb8b36f6ea3b5207a9d1f7c007c72d65025ee.png",
+      "sha256": "666f272919a978eb9040bd71513cb8b36f6ea3b5207a9d1f7c007c72d65025ee",
+      "alt": "Identity profile linked to roles, devices, apps and time under ACCESS FOLLOWS THE ROLE and the Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/666f272919a978eb9040bd71513cb8b36f6ea3b5207a9d1f7c007c72d65025ee.png",
+      "sha256": "666f272919a978eb9040bd71513cb8b36f6ea3b5207a9d1f7c007c72d65025ee",
+      "alt": "Identity profile linked to roles, devices, apps and time under ACCESS FOLLOWS THE ROLE and the Cloud2e logo."
+    }
+  }
+}
