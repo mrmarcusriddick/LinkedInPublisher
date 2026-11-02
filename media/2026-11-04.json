@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-04",
+  "images": {
+    "personal": {
+      "path": "assets/05a22caf0a6341d399a249ab1cbc7928ddf8db57f5d3f152c50b9b7dcee9f912.png",
+      "sha256": "05a22caf0a6341d399a249ab1cbc7928ddf8db57f5d3f152c50b9b7dcee9f912",
+      "alt": "Protected data pathways pass through policy checks under PROTECT THE DATA FLOW and the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/05a22caf0a6341d399a249ab1cbc7928ddf8db57f5d3f152c50b9b7dcee9f912.png",
+      "sha256": "05a22caf0a6341d399a249ab1cbc7928ddf8db57f5d3f152c50b9b7dcee9f912",
+      "alt": "Protected data pathways pass through policy checks under PROTECT THE DATA FLOW and the official Cloud2e logo."
+    }
+  }
+}
