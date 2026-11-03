@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "images": {
+    "personal": {
+      "path": "assets/f508fe37a241b73b65e84d24660adc4923ba71d20650337619bcc0297979663e.png",
+      "sha256": "f508fe37a241b73b65e84d24660adc4923ba71d20650337619bcc0297979663e",
+      "alt": "Two managed IT proposals are compared under COMPARE THE SCOPE with the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/f508fe37a241b73b65e84d24660adc4923ba71d20650337619bcc0297979663e.png",
+      "sha256": "f508fe37a241b73b65e84d24660adc4923ba71d20650337619bcc0297979663e",
+      "alt": "Two managed IT proposals are compared under COMPARE THE SCOPE with the official Cloud2e logo."
+    }
+  }
+}
