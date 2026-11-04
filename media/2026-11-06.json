@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-06",
+  "images": {
+    "personal": {
+      "path": "assets/ad30ff39dbfee23e2266672155999acbb8365b44086296469dabbc60a0fc9e0a.png",
+      "sha256": "ad30ff39dbfee23e2266672155999acbb8365b44086296469dabbc60a0fc9e0a",
+      "alt": "A layered secure cloud foundation under DESIGN BEFORE DEPLOY with the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/ad30ff39dbfee23e2266672155999acbb8365b44086296469dabbc60a0fc9e0a.png",
+      "sha256": "ad30ff39dbfee23e2266672155999acbb8365b44086296469dabbc60a0fc9e0a",
+      "alt": "A layered secure cloud foundation under DESIGN BEFORE DEPLOY with the official Cloud2e logo."
+    }
+  }
+}
