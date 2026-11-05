@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-07",
+  "images": {
+    "personal": {
+      "path": "assets/643f4752b6d6abb369889ea0fd6823df591af150c139b7893a57bf5f7ff03ccd.png",
+      "sha256": "643f4752b6d6abb369889ea0fd6823df591af150c139b7893a57bf5f7ff03ccd",
+      "alt": "A verified backup-to-recovery path under TEST THE RESTORE with the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/643f4752b6d6abb369889ea0fd6823df591af150c139b7893a57bf5f7ff03ccd.png",
+      "sha256": "643f4752b6d6abb369889ea0fd6823df591af150c139b7893a57bf5f7ff03ccd",
+      "alt": "A verified backup-to-recovery path under TEST THE RESTORE with the official Cloud2e logo."
+    }
+  }
+}
