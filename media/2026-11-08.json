@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-08",
+  "images": {
+    "personal": {
+      "path": "assets/9a29d025c92bfcd311375c866ffc3ef999605b2d7a112dacc9652420ae1fa0a7.png",
+      "sha256": "9a29d025c92bfcd311375c866ffc3ef999605b2d7a112dacc9652420ae1fa0a7",
+      "alt": "Map Every Access Path graphic showing remote users and sites connected through a governed network gateway."
+    },
+    "company": {
+      "path": "assets/9a29d025c92bfcd311375c866ffc3ef999605b2d7a112dacc9652420ae1fa0a7.png",
+      "sha256": "9a29d025c92bfcd311375c866ffc3ef999605b2d7a112dacc9652420ae1fa0a7",
+      "alt": "Map Every Access Path graphic showing remote users and sites connected through a governed network gateway."
+    }
+  }
+}
