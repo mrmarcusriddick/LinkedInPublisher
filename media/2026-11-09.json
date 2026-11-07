@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "images": {
+    "personal": {
+      "path": "assets/f89f49087107af3fbabb9fbdd67d473002e874e95525282770e8e27d250eb521.png",
+      "sha256": "f89f49087107af3fbabb9fbdd67d473002e874e95525282770e8e27d250eb521",
+      "alt": "Connect Words to Records graphic linking a policy, owned procedure, and operational record."
+    },
+    "company": {
+      "path": "assets/f89f49087107af3fbabb9fbdd67d473002e874e95525282770e8e27d250eb521.png",
+      "sha256": "f89f49087107af3fbabb9fbdd67d473002e874e95525282770e8e27d250eb521",
+      "alt": "Connect Words to Records graphic linking a policy, owned procedure, and operational record."
+    }
+  }
+}
