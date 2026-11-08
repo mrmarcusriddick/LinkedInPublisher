@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-10",
+  "images": {
+    "personal": {
+      "path": "assets/f37824a6f0076551f99a682b5e3316ae6d97d1ac9f8d2c071741b3e41a16e669.png",
+      "sha256": "f37824a6f0076551f99a682b5e3316ae6d97d1ac9f8d2c071741b3e41a16e669",
+      "alt": "Four endpoint lifecycle stages under the headline Manage the Full Lifecycle."
+    },
+    "company": {
+      "path": "assets/f37824a6f0076551f99a682b5e3316ae6d97d1ac9f8d2c071741b3e41a16e669.png",
+      "sha256": "f37824a6f0076551f99a682b5e3316ae6d97d1ac9f8d2c071741b3e41a16e669",
+      "alt": "Four endpoint lifecycle stages under the headline Manage the Full Lifecycle."
+    }
+  }
+}
