@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-11",
+  "images": {
+    "personal": {
+      "path": "assets/7bdafbc065ccd9d7fd98aa782bc7c9501ff4f3234cebde23e2e9d94c900ab235.png",
+      "sha256": "7bdafbc065ccd9d7fd98aa782bc7c9501ff4f3234cebde23e2e9d94c900ab235",
+      "alt": "Guest access governance flow with an owner, approval, review calendar, and expiration."
+    },
+    "company": {
+      "path": "assets/7bdafbc065ccd9d7fd98aa782bc7c9501ff4f3234cebde23e2e9d94c900ab235.png",
+      "sha256": "7bdafbc065ccd9d7fd98aa782bc7c9501ff4f3234cebde23e2e9d94c900ab235",
+      "alt": "Guest access governance flow with an owner, approval, review calendar, and expiration."
+    }
+  }
+}
