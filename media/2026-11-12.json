@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-12",
+  "images": {
+    "personal": {
+      "path": "assets/f0056b7f6edcf0e4954a32363e0e0acd1a042b17f1a088590b34151326dc469a.png",
+      "sha256": "f0056b7f6edcf0e4954a32363e0e0acd1a042b17f1a088590b34151326dc469a",
+      "alt": "Closed-loop security alert process from triage through tuning and stronger monitoring."
+    },
+    "company": {
+      "path": "assets/f0056b7f6edcf0e4954a32363e0e0acd1a042b17f1a088590b34151326dc469a.png",
+      "sha256": "f0056b7f6edcf0e4954a32363e0e0acd1a042b17f1a088590b34151326dc469a",
+      "alt": "Closed-loop security alert process from triage through tuning and stronger monitoring."
+    }
+  }
+}
