@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-13",
+  "images": {
+    "personal": {
+      "path": "assets/b50a7ef7f07aebd4413c262ae5207046500ad18955142c70f03e00708e0ee962.png",
+      "sha256": "b50a7ef7f07aebd4413c262ae5207046500ad18955142c70f03e00708e0ee962",
+      "alt": "Helpdesk tickets flow through trend review and root-cause analysis to corrective action."
+    },
+    "company": {
+      "path": "assets/b50a7ef7f07aebd4413c262ae5207046500ad18955142c70f03e00708e0ee962.png",
+      "sha256": "b50a7ef7f07aebd4413c262ae5207046500ad18955142c70f03e00708e0ee962",
+      "alt": "Helpdesk tickets flow through trend review and root-cause analysis to corrective action."
+    }
+  }
+}
