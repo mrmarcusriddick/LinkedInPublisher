@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-14",
+  "images": {
+    "personal": {
+      "path": "assets/49984209c2f36c16a516f28324b7bb43a342f644ce72b64e7e31fa192ece937f.png",
+      "sha256": "49984209c2f36c16a516f28324b7bb43a342f644ce72b64e7e31fa192ece937f",
+      "alt": "Evidence index connects artifact ownership, retrieval, and explanation for assessment preparation."
+    },
+    "company": {
+      "path": "assets/49984209c2f36c16a516f28324b7bb43a342f644ce72b64e7e31fa192ece937f.png",
+      "sha256": "49984209c2f36c16a516f28324b7bb43a342f644ce72b64e7e31fa192ece937f",
+      "alt": "Evidence index connects artifact ownership, retrieval, and explanation for assessment preparation."
+    }
+  }
+}
