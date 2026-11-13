@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-15",
+  "images": {
+    "personal": {
+      "path": "assets/f9bedcb5971f89e8dbe767970f664c13acc9b8d9e6d001471224889c5d6f28fb.png",
+      "sha256": "f9bedcb5971f89e8dbe767970f664c13acc9b8d9e6d001471224889c5d6f28fb",
+      "alt": "Graphic titled 'AUTOMATE WITH A WAY BACK' showing plan, review, deploy, verify, and a rollback arrow."
+    },
+    "company": {
+      "path": "assets/f9bedcb5971f89e8dbe767970f664c13acc9b8d9e6d001471224889c5d6f28fb.png",
+      "sha256": "f9bedcb5971f89e8dbe767970f664c13acc9b8d9e6d001471224889c5d6f28fb",
+      "alt": "Graphic titled 'AUTOMATE WITH A WAY BACK' showing plan, review, deploy, verify, and a rollback arrow."
+    }
+  }
+}
