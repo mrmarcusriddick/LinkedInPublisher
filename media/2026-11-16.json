@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-16",
+  "images": {
+    "personal": {
+      "path": "assets/c9428c1971fd7cde7af2f91184644c6d70cf9fefc8532b2eebb3ad1aa7de8766.png",
+      "sha256": "c9428c1971fd7cde7af2f91184644c6d70cf9fefc8532b2eebb3ad1aa7de8766",
+      "alt": "Graphic titled 'MAP THE DEPENDENCIES FIRST' linking identity, mail, files, and Teams to a migration plan."
+    },
+    "company": {
+      "path": "assets/c9428c1971fd7cde7af2f91184644c6d70cf9fefc8532b2eebb3ad1aa7de8766.png",
+      "sha256": "c9428c1971fd7cde7af2f91184644c6d70cf9fefc8532b2eebb3ad1aa7de8766",
+      "alt": "Graphic titled 'MAP THE DEPENDENCIES FIRST' linking identity, mail, files, and Teams to a migration plan."
+    }
+  }
+}
