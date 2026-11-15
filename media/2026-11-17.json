@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-17",
+  "images": {
+    "personal": {
+      "path": "assets/5197a9eac565107e62397bfa4be152ca94d88d47326718a2fdffb98e474af5b2.png",
+      "sha256": "5197a9eac565107e62397bfa4be152ca94d88d47326718a2fdffb98e474af5b2",
+      "alt": "Graphic titled 'DEFINE DONE BEFORE THE FIX' showing owner, change, evidence, and retest stages."
+    },
+    "company": {
+      "path": "assets/5197a9eac565107e62397bfa4be152ca94d88d47326718a2fdffb98e474af5b2.png",
+      "sha256": "5197a9eac565107e62397bfa4be152ca94d88d47326718a2fdffb98e474af5b2",
+      "alt": "Graphic titled 'DEFINE DONE BEFORE THE FIX' showing owner, change, evidence, and retest stages."
+    }
+  }
+}
