@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-18",
+  "images": {
+    "personal": {
+      "path": "assets/e5914e99491be0bc8e13fe8df5a7a63841ed2663720fe3254490f94960a4f031.png",
+      "sha256": "e5914e99491be0bc8e13fe8df5a7a63841ed2663720fe3254490f94960a4f031",
+      "alt": "Graphic titled 'START WITH A KNOWN BASELINE' showing inventory, secure baseline, monitoring, and support handoff."
+    },
+    "company": {
+      "path": "assets/e5914e99491be0bc8e13fe8df5a7a63841ed2663720fe3254490f94960a4f031.png",
+      "sha256": "e5914e99491be0bc8e13fe8df5a7a63841ed2663720fe3254490f94960a4f031",
+      "alt": "Graphic titled 'START WITH A KNOWN BASELINE' showing inventory, secure baseline, monitoring, and support handoff."
+    }
+  }
+}
