@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-19",
+  "images": {
+    "personal": {
+      "path": "assets/16f92987e4ce2ed7feafba962db8e63dfbd7af1510a22c78bf642209f480ff30.png",
+      "sha256": "16f92987e4ce2ed7feafba962db8e63dfbd7af1510a22c78bf642209f480ff30",
+      "alt": "Graphic titled 'EVERY FIREWALL RULE NEEDS AN OWNER' with a firewall, network nodes, and review checklist."
+    },
+    "company": {
+      "path": "assets/16f92987e4ce2ed7feafba962db8e63dfbd7af1510a22c78bf642209f480ff30.png",
+      "sha256": "16f92987e4ce2ed7feafba962db8e63dfbd7af1510a22c78bf642209f480ff30",
+      "alt": "Graphic titled 'EVERY FIREWALL RULE NEEDS AN OWNER' with a firewall, network nodes, and review checklist."
+    }
+  }
+}
