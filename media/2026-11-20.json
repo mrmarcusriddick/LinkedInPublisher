@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-20",
+  "images": {
+    "personal": {
+      "path": "assets/6a9954748962b5c4dc16430e7315b5aa53ce8572ed7b5af32c054f039c047bb6.png",
+      "sha256": "6a9954748962b5c4dc16430e7315b5aa53ce8572ed7b5af32c054f039c047bb6",
+      "alt": "Graphic titled 'DESIGN DAY TWO BEFORE DAY ONE' showing VM and container inputs to a cloud operations cycle."
+    },
+    "company": {
+      "path": "assets/6a9954748962b5c4dc16430e7315b5aa53ce8572ed7b5af32c054f039c047bb6.png",
+      "sha256": "6a9954748962b5c4dc16430e7315b5aa53ce8572ed7b5af32c054f039c047bb6",
+      "alt": "Graphic titled 'DESIGN DAY TWO BEFORE DAY ONE' showing VM and container inputs to a cloud operations cycle."
+    }
+  }
+}
