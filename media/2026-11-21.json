@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-21",
+  "images": {
+    "personal": {
+      "path": "assets/8890d13e4dc457dacf975d0f4827121b183ee7bdd6684cd49fd3f2a8c2bd3b49.png",
+      "sha256": "8890d13e4dc457dacf975d0f4827121b183ee7bdd6684cd49fd3f2a8c2bd3b49",
+      "alt": "Escalation path diagram with the headline Test the Escalation Path and the official Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/8890d13e4dc457dacf975d0f4827121b183ee7bdd6684cd49fd3f2a8c2bd3b49.png",
+      "sha256": "8890d13e4dc457dacf975d0f4827121b183ee7bdd6684cd49fd3f2a8c2bd3b49",
+      "alt": "Escalation path diagram with the headline Test the Escalation Path and the official Cloud2e logo."
+    }
+  }
+}
