@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-22",
+  "images": {
+    "personal": {
+      "path": "assets/a9b551e66ff4781f098f5e031584f9627579cd3ce25347ab9241b07323c967a6.png",
+      "sha256": "a9b551e66ff4781f098f5e031584f9627579cd3ce25347ab9241b07323c967a6",
+      "alt": "Status, review, and evidence path with the headline Trace Status to Evidence and the Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/a9b551e66ff4781f098f5e031584f9627579cd3ce25347ab9241b07323c967a6.png",
+      "sha256": "a9b551e66ff4781f098f5e031584f9627579cd3ce25347ab9241b07323c967a6",
+      "alt": "Status, review, and evidence path with the headline Trace Status to Evidence and the Cloud2e logo."
+    }
+  }
+}

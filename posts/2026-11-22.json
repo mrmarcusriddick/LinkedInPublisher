@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-22",
+  "posts": {
+    "personal": "A readiness score should be a trailhead, not the end of the conversation.\n\nIf a status changes from open to complete, the team should be able to show what changed, who reviewed it, and which current record supports the decision. Without that chain, a dashboard can look precise while the underlying work remains hard to explain.\n\nWe at Cloud2e use the CLOUD2E CMMC Tracker as the system-of-record and evidence layer for a CMMC program. It organizes assessment records, narratives, recurring checklists, evidence links, reviewer sign-off, and exports. It does not implement the technical controls; it helps connect operational work to the records used to explain it.\n\nA useful Sunday question is: can every completed status be traced to current evidence and an accountable owner? If the answer takes too long, improve the trail before adding another tool.\n\nhttps://www.cloud2e.com/cmmc-tracker/\n\n#CMMCReadiness #ComplianceOperations",
+    "company": "A dashboard should be an index to evidence, not a substitute for it.\n\nFor each readiness status, capture the control or activity being reviewed, the supporting record, the owner, the review date, and the next refresh trigger. Then test the trail: can someone outside the workstream follow it without relying on a private spreadsheet or one person’s memory?\n\nThe CLOUD2E CMMC Tracker brings assessment records, narratives, recurring maintenance checklists, evidence links, reviewer sign-off, operational records, and exports into one system of record. Its role is to organize and evidence the program. It does not replace the Microsoft 365, Entra ID, Intune, Defender, or Sentinel controls operating in the environment.\n\nStatus becomes useful when the team can explain the work behind it and locate the current supporting record.\n\nhttps://www.cloud2e.com/cmmc-tracker/\n\n#CMMC #EvidenceManagement"
+  },
+  "sources": [
+    "https://www.cloud2e.com/cmmc-tracker/"
+  ]
+}
