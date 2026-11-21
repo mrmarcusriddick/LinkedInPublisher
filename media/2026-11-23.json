@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-23",
+  "images": {
+    "personal": {
+      "path": "assets/e548c576f9fc1a70f468c465d0a42fac42061c085af97859283db0e0ebf89054.png",
+      "sha256": "e548c576f9fc1a70f468c465d0a42fac42061c085af97859283db0e0ebf89054",
+      "alt": "Infrastructure and document synchronization graphic with the headline Keep the SSP Current and Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/e548c576f9fc1a70f468c465d0a42fac42061c085af97859283db0e0ebf89054.png",
+      "sha256": "e548c576f9fc1a70f468c465d0a42fac42061c085af97859283db0e0ebf89054",
+      "alt": "Infrastructure and document synchronization graphic with the headline Keep the SSP Current and Cloud2e logo."
+    }
+  }
+}

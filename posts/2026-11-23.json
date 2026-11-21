@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "posts": {
+    "personal": "The SSP should not be the last place a system change appears.\n\nWhen a new service is added, a role changes, an external provider takes on work, or a data flow moves, the technical change may be complete while the documentation still describes yesterday’s environment. That gap creates confusion for operators and reviewers.\n\nWe at Cloud2e help build and maintain CMMC documentation around the actual environment: SSP content, policies, procedures, responsibility assignments, shared-provider boundaries, and the operational records those documents point to. The intended benefit is a body of evidence that teams can use to run the program, not a binder that only appears before a review.\n\nA practical Monday habit: add a documentation-impact question to every meaningful change. Which diagrams, implementation statements, procedures, responsibility tables, and evidence references need review?\n\nhttps://www.cloud2e.com/cmmc-documentation/\n\n#CMMCReadiness #Documentation",
+    "company": "A completed technical change can still leave the compliance story out of date.\n\nUse a documentation-impact review after changes to systems, providers, roles, data flows, or operating procedures:\n- update affected diagrams and boundaries;\n- confirm implementation statements still match reality;\n- revise procedures and responsible roles;\n- check shared-responsibility assignments;\n- link the new operational records;\n- record who reviewed the updates.\n\nCloud2e’s CMMC documentation service focuses on aligning the SSP, policies, procedures, shared responsibility matrix, and operational evidence with the environment they describe. This helps organizations replace conflicting documents and optimistic templates with documentation tied to actual work.\n\nThe useful question is not just, “Did the change succeed?” It is also, “Did every document and record that depends on it remain accurate?”\n\nhttps://www.cloud2e.com/cmmc-documentation/\n\n#CMMC #ComplianceOperations"
+  },
+  "sources": [
+    "https://www.cloud2e.com/cmmc-documentation/"
+  ]
+}
