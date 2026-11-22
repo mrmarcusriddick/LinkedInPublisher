@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-24",
+  "images": {
+    "personal": {
+      "path": "assets/f8281802f8bf0cd337a85a655eb92bc56e0da55a4016ff4401bf53fdde3387d9.png",
+      "sha256": "f8281802f8bf0cd337a85a655eb92bc56e0da55a4016ff4401bf53fdde3387d9",
+      "alt": "Managed endpoints surround one silent device under the headline When an Endpoint Goes Silent, with Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/f8281802f8bf0cd337a85a655eb92bc56e0da55a4016ff4401bf53fdde3387d9.png",
+      "sha256": "f8281802f8bf0cd337a85a655eb92bc56e0da55a4016ff4401bf53fdde3387d9",
+      "alt": "Managed endpoints surround one silent device under the headline When an Endpoint Goes Silent, with Cloud2e logo."
+    }
+  }
+}

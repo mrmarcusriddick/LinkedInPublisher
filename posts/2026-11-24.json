@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-24",
+  "posts": {
+    "personal": "When an endpoint goes silent, the first question should not be, \"How fast can we reinstall the agent?\" It should be, \"What changed?\"\n\nA laptop may stop reporting because it was retired, reimaged, left offline, lost, or disconnected from the management tool. Each explanation points to a different operational decision.\n\nWe at Cloud2e connect endpoint management with asset inventory and support workflows. That means checking the assigned owner, last contact, device status, management-agent state, and the ticket or change record before closing the gap. The goal is not a prettier dashboard. It is a trustworthy picture of which devices still belong in the environment and which need action.\n\nA useful exercise for this week: list every endpoint that has missed its expected check-in and assign each one an owner and disposition.\n\nhttps://www.cloud2e.com/services/it-managed-services/\n\n#ManagedIT #EndpointManagement",
+    "company": "An endpoint that disappears from a management console creates an operational question: retired, offline, reimaged, missing an agent, or genuinely unaccounted for?\n\nA practical response needs more than an alert. It needs a repeatable path:\n- confirm the assigned user and asset record;\n- review the last successful check-in;\n- compare recent tickets and approved changes;\n- verify the management agent and patch status;\n- record the device's final disposition and follow-up owner.\n\nCloud2e's managed IT service brings endpoint lifecycle management, current hardware and software inventory, helpdesk visibility, and operational reporting into the same working rhythm. That helps IT leaders separate expected device changes from real blind spots and keep the environment's records aligned with day-to-day operations.\n\nLearn more about Cloud2e managed IT:\nhttps://www.cloud2e.com/services/it-managed-services/\n\n#ManagedServices #ITOperations"
+  },
+  "sources": [
+    "https://www.cloud2e.com/services/it-managed-services/"
+  ]
+}
