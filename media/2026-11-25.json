@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-25",
+  "images": {
+    "personal": {
+      "path": "assets/b1400218dcdac51d6d9ed58d78de1a3456147c493d2bf72ec36f54e4eef8d64e.png",
+      "sha256": "b1400218dcdac51d6d9ed58d78de1a3456147c493d2bf72ec36f54e4eef8d64e",
+      "alt": "Collaboration folders connect to an owner and lifecycle stages under Every Workspace Needs an Owner, with Cloud2e logo."
+    },
+    "company": {
+      "path": "assets/b1400218dcdac51d6d9ed58d78de1a3456147c493d2bf72ec36f54e4eef8d64e.png",
+      "sha256": "b1400218dcdac51d6d9ed58d78de1a3456147c493d2bf72ec36f54e4eef8d64e",
+      "alt": "Collaboration folders connect to an owner and lifecycle stages under Every Workspace Needs an Owner, with Cloud2e logo."
+    }
+  }
+}

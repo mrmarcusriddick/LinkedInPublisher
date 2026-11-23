@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-25",
+  "posts": {
+    "personal": "Every Microsoft 365 workspace needs an owner, not just a creator.\n\nA Teams team or SharePoint site can outlive its project. The people move on, permissions remain, files keep accumulating, and nobody is sure who should approve a new member or decide when the workspace should be archived.\n\nWe at Cloud2e address that through Microsoft 365 tenant governance and SharePoint and Teams architecture. The service connects sites, channels, permissions, sharing rules, and lifecycle reviews to the way the organization actually works. The intended benefit is a tenant where collaboration stays useful without becoming a maze of abandoned workspaces and unclear access.\n\nA simple review can start with five questions: What is this workspace for? Who owns it? Who can access it? When was it last active? Should it remain, change, or be archived?\n\nhttps://www.cloud2e.com/services/cloud-adoption-microsoft-365/\n\n#Microsoft365 #CloudGovernance",
+    "company": "Workspace sprawl is usually governance debt in disguise.\n\nA useful Microsoft 365 lifecycle review should record:\n- the workspace's current business purpose;\n- at least one accountable owner;\n- members, guests, and permission structure;\n- sharing and retention settings;\n- the last meaningful activity;\n- a decision to retain, revise, or archive.\n\nCloud2e's Cloud Adoption and Microsoft 365 service includes tenant governance, SharePoint and Teams architecture, sharing policies, guest-access discipline, and ongoing stewardship. Bringing those elements into one operating rhythm helps teams keep collaboration spaces aligned with current work instead of letting old sites and channels become permanent exceptions.\n\nThe goal is not to delete everything old. It is to make ownership and lifecycle decisions visible, repeatable, and reviewable.\n\nExplore Cloud2e's Microsoft 365 services:\nhttps://www.cloud2e.com/services/cloud-adoption-microsoft-365/\n\n#Microsoft365 #TenantGovernance"
+  },
+  "sources": [
+    "https://www.cloud2e.com/services/cloud-adoption-microsoft-365/"
+  ]
+}
