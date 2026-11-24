@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-26",
+  "posts": {
+    "personal": "The first system you can restore is not always the first system the business needs.\n\nA recovery exercise should test more than whether data comes back. It should confirm the order: identity services, network dependencies, core applications, file repositories, and user access. A technically successful restore can still leave the business waiting if an upstream dependency was missed or nobody knows who validates the result.\n\nWe at Cloud2e include monitored backups and tested restores within managed IT operations. The service connection is practical: backups protect copies of data, while restore testing exercises the process needed to make those copies useful. The intended benefit is clearer recovery readiness, with owners, validation steps, and gaps identified before an outage sets the timeline.\n\nPick one critical service and ask: what must be online before it, who confirms it works, and what evidence closes the test?\n\nhttps://www.cloud2e.com/services/it-managed-services/\n\n#BusinessContinuity #ManagedIT",
+    "company": "Recovery order is a business decision disguised as a technical checklist.\n\nBefore testing a restore, define:\n- the service being recovered;\n- dependent identity, network, storage, and application components;\n- the backup source and recovery location;\n- the validation owner and success criteria;\n- user communication and fallback steps;\n- the result, gaps, and follow-up owner.\n\nCloud2e's managed IT service includes monitored backups and tested restores as part of ongoing operations. Combining recovery testing with transparent reporting helps leaders see what was tested, what worked, and what still needs attention. It does not promise an outage-free environment; it turns recovery from an assumption into an operational exercise.\n\nStart with one business-critical service and build a repeatable recovery sequence around it.\n\nhttps://www.cloud2e.com/services/it-managed-services/\n\n#BackupRecovery #ITOperations"
+  },
+  "sources": [
+    "https://www.cloud2e.com/services/it-managed-services/"
+  ]
+}

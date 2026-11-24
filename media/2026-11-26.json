@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-26",
+  "images": {
+    "personal": {
+      "path": "assets/769839fc5cc002e81ff42dc585733cddb9d2bb77da259be0a468198bfb161a75.png",
+      "sha256": "769839fc5cc002e81ff42dc585733cddb9d2bb77da259be0a468198bfb161a75",
+      "alt": "Identity, network, application, and data icons form an ordered recovery path under Recover in the Right Order."
+    },
+    "company": {
+      "path": "assets/769839fc5cc002e81ff42dc585733cddb9d2bb77da259be0a468198bfb161a75.png",
+      "sha256": "769839fc5cc002e81ff42dc585733cddb9d2bb77da259be0a468198bfb161a75",
+      "alt": "Identity, network, application, and data icons form an ordered recovery path under Recover in the Right Order."
+    }
+  }
+}
