@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "images": {
+    "personal": {
+      "path": "assets/dd3b7c09f9c2f716be8623e93114ffe4741e09def582e29b8fa235ca0f0f044e.png",
+      "sha256": "dd3b7c09f9c2f716be8623e93114ffe4741e09def582e29b8fa235ca0f0f044e",
+      "alt": "Workload blueprint branches to a virtual machine and container beneath the headline Fit the platform to the workload."
+    },
+    "company": {
+      "path": "assets/dd3b7c09f9c2f716be8623e93114ffe4741e09def582e29b8fa235ca0f0f044e.png",
+      "sha256": "dd3b7c09f9c2f716be8623e93114ffe4741e09def582e29b8fa235ca0f0f044e",
+      "alt": "Workload blueprint branches to a virtual machine and container beneath the headline Fit the platform to the workload."
+    }
+  }
+}
