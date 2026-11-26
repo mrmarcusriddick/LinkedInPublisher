@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-28",
+  "posts": {
+    "personal": "Temporary access becomes permanent when nobody owns the expiration date.\n\nA practical identity review starts with five questions: Who has access? Why? What changed in the person’s role? When was the access last used? Who can approve its removal?\n\nWe at Cloud2e connect that review to managed identity and access operations. The service includes single sign-on, multifactor enforcement, conditional access, and disciplined joiner/mover/leaver workflows. That matters because access decisions should follow the employee lifecycle instead of waiting for a cleanup project.\n\nFor this weekend’s checklist, pick one high-impact system. Confirm the owner, review active accounts and roles, remove stale access, document approved exceptions, and set the next review date. Then repeat the process rather than treating it as a one-time audit.\n\nClear ownership turns access review into an operating habit.\n\nhttps://www.cloud2e.com/services/it-managed-services/\n\n#IdentityManagement #ManagedIT",
+    "company": "Access reviews are useful only when they produce decisions.\n\nUse a simple operating checklist:\n• define which systems and roles are being reviewed\n• identify the business owner for each decision\n• compare current access with current job responsibilities\n• remove inactive or unnecessary access\n• document exceptions and approval dates\n• schedule the next review before closing the task\n\nCloud2e’s IT managed services include identity and access management, single sign-on, multifactor enforcement, conditional access, and joiner/mover/leaver workflows. These capabilities help organizations connect account changes to day-to-day operations instead of relying on occasional cleanup.\n\nA review should leave behind more than a spreadsheet. It should create assigned actions, documented decisions, and a repeatable cadence for the next cycle.\n\nExplore Cloud2e managed IT:\nhttps://www.cloud2e.com/services/it-managed-services/\n\n#AccessManagement #MSP"
+  },
+  "sources": [
+    "https://www.cloud2e.com/services/it-managed-services/"
+  ]
+}

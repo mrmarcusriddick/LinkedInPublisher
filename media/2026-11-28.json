@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-28",
+  "images": {
+    "personal": {
+      "path": "assets/97ae57462086ba4be06c3ad0f0376b40d1e2f73e9e49ab20f00e6c82de3492d2.png",
+      "sha256": "97ae57462086ba4be06c3ad0f0376b40d1e2f73e9e49ab20f00e6c82de3492d2",
+      "alt": "Identity nodes feed a checklist and approve, remove, or schedule actions beneath Turn access reviews into action."
+    },
+    "company": {
+      "path": "assets/97ae57462086ba4be06c3ad0f0376b40d1e2f73e9e49ab20f00e6c82de3492d2.png",
+      "sha256": "97ae57462086ba4be06c3ad0f0376b40d1e2f73e9e49ab20f00e6c82de3492d2",
+      "alt": "Identity nodes feed a checklist and approve, remove, or schedule actions beneath Turn access reviews into action."
+    }
+  }
+}
