@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-30",
+  "posts": {
+    "personal": "NIST SP 800-171 and CMMC belong in the same conversation, but they are not interchangeable.\n\nNIST SP 800-171 provides security requirements for protecting CUI in nonfederal systems. CMMC is the DoD program that assesses whether applicable requirements are implemented. Under the current CMMC rule, the Level 2 baseline incorporates NIST SP 800-171 Revision 2.\n\nThat distinction changes how a preparation plan should be built. A team needs engineering work to implement requirements, plus documentation and evidence that explain how the environment operates. We at Cloud2e connect scoping, gap assessment, remediation, SSP and POA&M work, and evidence organization so those workstreams stay aligned.\n\nA useful Monday check: does every open readiness task say whether it changes the system, updates the documentation, produces evidence, or does more than one?\n\nUnderstanding the difference helps teams plan the work without confusing a requirement set with an assessment program.\n\nhttps://www.cloud2e.com/insights/cmmc-vs-nist-800-171/\n\n#CMMC #NIST800171",
+    "company": "One planning board. Two different questions.\n\nNIST SP 800-171 asks: what security requirements apply to protecting CUI in nonfederal systems?\n\nCMMC asks: how will implementation of the applicable cybersecurity requirements be assessed under the DoD program?\n\nThe current CMMC rule incorporates NIST SP 800-171 Revision 2 for the Level 2 baseline. Preparation should connect implementation and verification work without treating them as synonyms.\n\nA practical readiness plan should show:\n\n• which requirement is being addressed\n• which system change or operating process implements it\n• which document describes the implementation\n• which evidence demonstrates the process\n• who owns remediation and maintenance\n\nCloud2e helps organizations connect gap assessment, remediation, SSP and POA&M development, and evidence organization. The intended benefit is a program where the technical environment and the documentation tell the same story.\n\nRead the distinction:\nhttps://www.cloud2e.com/insights/cmmc-vs-nist-800-171/\n\n#CMMCReadiness #NIST800171"
+  },
+  "sources": [
+    "https://www.cloud2e.com/insights/cmmc-vs-nist-800-171/",
+    "https://www.cloud2e.com/services/cmmc-compliance/",
+    "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-G/part-170",
+    "https://csrc.nist.gov/pubs/sp/800/171/r2/final"
+  ]
+}

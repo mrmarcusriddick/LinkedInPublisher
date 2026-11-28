@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-30",
+  "images": {
+    "personal": {
+      "path": "assets/b44a9eb80bc93e47c6f230f7364ff1f1320eced4911e0c6c5e93cbe478aab315.png",
+      "sha256": "b44a9eb80bc93e47c6f230f7364ff1f1320eced4911e0c6c5e93cbe478aab315",
+      "alt": "A requirements checklist connects to interviews, documents, and evidence beneath Requirements ≠ Assessment."
+    },
+    "company": {
+      "path": "assets/b44a9eb80bc93e47c6f230f7364ff1f1320eced4911e0c6c5e93cbe478aab315.png",
+      "sha256": "b44a9eb80bc93e47c6f230f7364ff1f1320eced4911e0c6c5e93cbe478aab315",
+      "alt": "A requirements checklist connects to interviews, documents, and evidence beneath Requirements ≠ Assessment."
+    }
+  }
+}
